@@ -1,0 +1,1201 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Mudgee Apartments on Horatio Street · studio stays in Mudgee NSW (concept)</title>
+<meta name="description" content="Three ground-level, self-contained studio apartments at 27A Horatio Street, Mudgee NSW. Queen bed, max 2 guests, private verandah BBQ and undercover parking. Concept redesign.">
+<meta name="theme-color" content="#F5F1E8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233E5A4B'/%3E%3Cpath d='M14 40 32 24l18 16' fill='none' stroke='%23F5F1E8' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M20 46h24' stroke='%23C9822F' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/studio-poster.webp" media="(min-width: 761px)">
+<link rel="preload" as="image" href="assets/studio-poster-phone.webp" media="(max-width: 760px)">
+<script>document.documentElement.classList.add('js')</script>
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js" } }
+</script>
+<style>
+html,body{background:#F5F1E8;color:#232A27;margin:0}
+:root{
+  --paper:#F5F1E8; --paper-2:#EDE6D6; --card:#FBF9F4;
+  --ink:#232A27; --ink-80:rgba(35,42,39,.8); --ink-60:rgba(35,42,39,.64); --ink-40:rgba(35,42,39,.42);
+  --line:rgba(35,42,39,.14); --line-2:rgba(35,42,39,.08);
+  --gum:#3E5A4B; --gum-2:#5E7D6A; --gum-soft:#C9D6C8; --gum-mist:#E3EAE0;
+  --sand:#D9C3A0; --sand-2:#EADBC2; --bark:#8B8E87; --bark-2:#B9B8B0;
+  --ochre:#B96F22; --ochre-soft:#F1DDC2;
+  --serif:"Hedvig Letters Serif",Georgia,"Times New Roman",serif;
+  --sans:"Rethink Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --r:18px; --r-sm:12px;
+  --wrap:min(1220px,calc(100% - 2*clamp(16px,4vw,48px)));
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font:400 16px/1.6 var(--sans);overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--ochre);outline-offset:3px;border-radius:6px}
+.wrap{width:var(--wrap);margin-inline:auto}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.eyebrow{font:600 12px/1.2 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gum-2)}
+.h2{font:400 clamp(34px,5.2vw,64px)/1.02 var(--serif);letter-spacing:-.025em;margin:14px 0 0;text-wrap:balance}
+.h2 em{font-style:normal;color:var(--gum)}
+.lede{font-size:clamp(16px,1.35vw,18px);color:var(--ink-60);max-width:38rem;margin:18px 0 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid transparent;font:600 15px/1 var(--sans);text-decoration:none;transition:transform .25s var(--ease),background-color .25s,color .25s,border-color .25s,box-shadow .25s;white-space:nowrap}
+.btn:active{transform:scale(.97)}
+.btn svg{width:18px;height:18px;flex:none}
+.btn--gum{background:var(--gum);color:#F5F1E8}
+.btn--gum:hover{background:#2F4639;box-shadow:0 10px 24px -12px rgba(62,90,75,.7)}
+.btn--line{border-color:rgba(35,42,39,.28);background:rgba(251,249,244,.7);color:var(--ink)}
+.btn--line:hover{border-color:var(--ink);background:var(--card)}
+.btn--ochre{background:var(--ochre);color:#FFF8EE}
+.btn--ochre:hover{background:#9D5C19}
+.chip{min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:500 14.5px/1 var(--sans);transition:background-color .2s,border-color .2s,color .2s,transform .2s var(--ease)}
+.chip:hover{border-color:var(--gum-2)}
+.chip:active{transform:scale(.97)}
+.chip[aria-pressed="true"],.chip[aria-checked="true"],.chip[aria-selected="true"]{background:var(--gum);border-color:var(--gum);color:#F5F1E8}
+
+/* ribbon + header */
+.ribbon{background:var(--ink);color:#EDE6D6;font:500 12.5px/1.35 var(--sans);text-align:center;padding:8px 16px;letter-spacing:.01em}
+.progress{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--gum-2),var(--ochre));z-index:80;pointer-events:none}
+.hdr{position:sticky;top:0;z-index:60;background:rgba(245,241,232,.86);-webkit-backdrop-filter:blur(14px) saturate(1.2);backdrop-filter:blur(14px) saturate(1.2);border-bottom:1px solid var(--line-2)}
+.hdr__in{display:flex;align-items:center;gap:22px;height:66px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;margin-right:auto;min-width:0}
+.brand__mark{width:34px;height:34px;flex:none}
+.brand__t{display:flex;flex-direction:column;line-height:1.05;min-width:0}
+.brand__t b{font:400 19px/1.05 var(--serif);letter-spacing:-.01em;white-space:nowrap}
+.brand__t span{font:500 11px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-60);white-space:nowrap}
+.nav{display:flex;gap:4px}
+.nav a{font:500 14.5px/1 var(--sans);text-decoration:none;padding:10px 12px;border-radius:999px;color:var(--ink-80);transition:background-color .2s,color .2s}
+.nav a:hover{background:var(--gum-mist);color:var(--ink)}
+.hdr .btn{min-height:42px;padding:0 18px;font-size:14px}
+.menu-btn{display:none;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);align-items:center;justify-content:center}
+.menu-btn svg{width:20px;height:20px}
+.sheet{position:fixed;inset:0;z-index:90;background:rgba(35,42,39,.35);display:none}
+.sheet.open{display:block}
+.sheet__p{position:absolute;right:12px;top:12px;left:12px;background:var(--paper);border-radius:22px;padding:18px;box-shadow:0 30px 60px -20px rgba(0,0,0,.35);animation:sheetIn .35s var(--ease)}
+@keyframes sheetIn{from{opacity:0;transform:translateY(-10px)}}
+.sheet__p nav{display:grid;gap:2px;margin:10px 0 16px}
+.sheet__p nav a{font:400 28px/1.2 var(--serif);text-decoration:none;padding:10px 6px;border-bottom:1px solid var(--line-2)}
+.sheet__top{display:flex;justify-content:space-between;align-items:center}
+
+/* ---------- cutaway hero ---------- */
+.cut{position:relative;height:290vh;height:290svh}
+.cut__stick{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:linear-gradient(180deg,#DCE6E6 0%,#EEF0E8 46%,#F3EEDF 72%,#E7DDC8 100%)}
+.cut__poster,.cut__canvas{position:absolute;inset:0;width:100%;height:100%}
+.cut__poster img{width:100%;height:100%;object-fit:cover;object-position:62% 60%}
+.cut__canvas{opacity:0;transition:opacity 1s var(--ease);display:block}
+.cut.is-ready .cut__canvas{opacity:1}
+.cut.is-ready .cut__poster{opacity:0;transition:opacity 1s .2s}
+.cut__veil{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(245,241,232,.92) 0%,rgba(245,241,232,.7) 26%,rgba(245,241,232,0) 52%)}
+.cut__copy{position:absolute;left:max(16px,calc((100% - 1220px)/2));top:clamp(64px,13vh,140px);width:min(560px,46vw);z-index:5;transition:opacity .5s,transform .5s var(--ease)}
+.cut__copy .eyebrow{display:flex;align-items:center;gap:10px}
+.cut__copy .eyebrow i{width:26px;height:1px;background:currentColor;display:block}
+.h1{font:400 clamp(46px,7.2vw,104px)/.95 var(--serif);letter-spacing:-.035em;margin:18px 0 0;color:var(--ink)}
+.h1 span{display:block}
+.h1 .soft{color:var(--gum)}
+.cut__sub{font-size:clamp(16px,1.4vw,19px);line-height:1.55;color:var(--ink-80);margin:22px 0 0;max-width:30rem}
+.cut__cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.facts-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px;padding:0;list-style:none}
+.facts-row li{font:500 13px/1 var(--sans);padding:9px 12px;border-radius:999px;background:rgba(251,249,244,.85);border:1px solid var(--line);display:flex;align-items:center;gap:7px}
+.facts-row li svg{width:15px;height:15px;color:var(--gum-2)}
+/* stage UI */
+.ui{position:absolute;z-index:6}
+.badge{left:max(16px,calc((100% - 1220px)/2));bottom:22px;font:500 12px/1.3 var(--sans);color:var(--ink-60);background:rgba(251,249,244,.86);border:1px solid var(--line);padding:7px 11px;border-radius:999px}
+.unit-sw{right:max(16px,calc((100% - 1220px)/2));top:22px;display:flex;align-items:center;gap:10px;background:rgba(251,249,244,.9);border:1px solid var(--line);border-radius:999px;padding:5px 5px 5px 14px;box-shadow:0 14px 30px -20px rgba(35,42,39,.4)}
+.unit-sw__l{font:600 11.5px/1.15 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-60)}
+.unit-sw [role=radiogroup]{display:flex;gap:3px}
+.unit-sw button{width:42px;height:42px;border-radius:50%;border:0;background:transparent;font:400 19px/1 var(--serif);transition:background-color .25s,color .25s}
+.unit-sw button:hover{background:var(--gum-mist)}
+.unit-sw button[aria-checked="true"]{background:var(--gum);color:#F5F1E8}
+.steps{right:max(16px,calc((100% - 1220px)/2));bottom:22px;display:flex;gap:4px;background:rgba(251,249,244,.9);border:1px solid var(--line);border-radius:999px;padding:4px}
+.steps button{border:0;background:transparent;min-height:40px;padding:0 14px;border-radius:999px;font:600 13px/1 var(--sans);color:var(--ink-60);display:flex;align-items:center;gap:7px;transition:background-color .25s,color .25s}
+.steps button b{font:400 15px/1 var(--serif);color:var(--ink-40)}
+.steps button[aria-current="step"]{background:var(--ink);color:#F5F1E8}
+.steps button[aria-current="step"] b{color:var(--sand)}
+.steps button:hover:not([aria-current="step"]){background:var(--gum-mist);color:var(--ink)}
+.cap{left:max(16px,calc((100% - 1220px)/2));top:clamp(80px,16vh,160px);width:min(390px,40vw);background:rgba(251,249,244,.93);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px 24px;box-shadow:0 30px 60px -40px rgba(35,42,39,.5);opacity:0;transform:translateY(12px);transition:opacity .45s,transform .55s var(--ease);pointer-events:none}
+.cap.on{opacity:1;transform:none;pointer-events:auto}
+.cap h3{font:400 clamp(26px,2.6vw,34px)/1.05 var(--serif);letter-spacing:-.02em;margin:10px 0 10px}
+.cap p{margin:0;color:var(--ink-80);font-size:15.5px}
+.cap .hint{display:flex;gap:8px;align-items:center;margin-top:14px;font:500 13px/1.3 var(--sans);color:var(--gum)}
+.cap .hint i{width:14px;height:14px;border-radius:50%;background:var(--ochre);box-shadow:0 0 0 4px rgba(185,111,34,.2);flex:none}
+.scrollcue{left:50%;bottom:78px;transform:translateX(-50%);font:600 11.5px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-60);display:flex;flex-direction:column;align-items:center;gap:10px;transition:opacity .4s}
+.scrollcue span{width:1px;height:34px;background:linear-gradient(var(--ink-40),transparent);animation:cue 2.2s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+.hots{position:absolute;inset:0;z-index:4;pointer-events:none}
+.hot{position:absolute;left:0;top:0;width:44px;height:44px;margin:-22px 0 0 -22px;border:0;padding:0;background:transparent;pointer-events:auto;opacity:0;transition:opacity .35s;display:grid;place-items:center}
+.hot.on{opacity:1}
+.hot.off{pointer-events:none}
+.hot i{width:18px;height:18px;border-radius:50%;background:var(--ochre);border:3px solid #FFF8EE;box-shadow:0 3px 10px rgba(0,0,0,.25);transition:transform .25s var(--ease)}
+.hot::before{content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:rgba(185,111,34,.35);animation:ping 2.4s var(--ease) infinite}
+@keyframes ping{0%{transform:scale(1);opacity:.9}80%,100%{transform:scale(2.6);opacity:0}}
+.hot:hover i,.hot[aria-expanded="true"] i{transform:scale(1.25);background:var(--gum)}
+.hot span{position:absolute;left:34px;top:50%;transform:translateY(-50%);white-space:nowrap;font:600 12.5px/1 var(--sans);background:rgba(35,42,39,.86);color:#F5F1E8;padding:7px 10px;border-radius:999px;opacity:0;transition:opacity .2s;pointer-events:none}
+.hot:hover span,.hot:focus-visible span{opacity:1}
+.tag{position:absolute;left:0;top:0;transform:translate(-50%,-100%);pointer-events:auto;border:0;background:var(--card);border-radius:999px;min-width:44px;height:44px;padding:0 14px;display:flex;align-items:center;gap:6px;font:400 18px/1 var(--serif);box-shadow:0 10px 24px -14px rgba(0,0,0,.5);opacity:0;transition:opacity .35s,background-color .25s,color .25s}
+.tag small{font:600 10.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-60)}
+.tag.on{opacity:1}.tag.off{pointer-events:none}
+.tag[aria-pressed="true"]{background:var(--gum);color:#F5F1E8}.tag[aria-pressed="true"] small{color:var(--gum-soft)}
+.hcard{position:absolute;z-index:7;right:max(16px,calc((100% - 1220px)/2));top:84px;width:min(330px,calc(100% - 32px));background:var(--ink);color:#F5F1E8;border-radius:var(--r);padding:20px 22px 22px;box-shadow:0 30px 60px -30px rgba(0,0,0,.55);opacity:0;transform:translateY(8px) scale(.98);transition:opacity .3s,transform .4s var(--ease);pointer-events:none}
+.hcard.open{opacity:1;transform:none;pointer-events:auto}
+.hcard .eyebrow{color:var(--sand)}
+.hcard h4{font:400 26px/1.08 var(--serif);margin:8px 0 10px;letter-spacing:-.015em}
+.hcard ul{margin:0;padding:0;list-style:none;display:grid;gap:7px}
+.hcard li{display:flex;gap:9px;font-size:15px;line-height:1.4;color:rgba(245,241,232,.86)}
+.hcard li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--ochre);margin-top:8px;flex:none}
+.hcard__x{position:absolute;right:10px;top:10px;width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.08);display:grid;place-items:center}
+.hcard__x:hover{background:rgba(255,255,255,.16)}
+.hcard__x svg{width:16px;height:16px}
+.hcard__nav{display:flex;gap:8px;margin-top:16px}
+.hcard__nav button{flex:1;min-height:40px;border-radius:999px;border:1px solid rgba(245,241,232,.25);background:transparent;font:600 13px/1 var(--sans)}
+.hcard__nav button:hover{background:rgba(255,255,255,.08)}
+.cut__list{display:none}
+/* no JS: plain, unpinned */
+html:not(.js) .cut{height:auto}
+html:not(.js) .cut__stick{position:relative;height:auto;min-height:0;display:grid}
+html:not(.js) .cut__poster{position:relative;height:62vh}
+html:not(.js) .cut__copy{position:relative;left:auto;top:auto;width:auto;padding:40px 16px 10px;max-width:640px;margin:0 auto}
+html:not(.js) .cut__veil,html:not(.js) .ui,html:not(.js) .hots,html:not(.js) .hcard{display:none}
+html:not(.js) .cut__list{display:grid;gap:14px;width:var(--wrap);margin:20px auto 40px;padding:0;list-style:none}
+html:not(.js) .cut__list li{background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);padding:16px 18px}
+html:not(.js) .cut__list b{font:400 22px/1.2 var(--serif);display:block}
+.cut.is-static{height:auto}
+.cut.is-static .cut__stick{height:100vh;height:100svh}
+
+/* ---------- sections ---------- */
+section{scroll-margin-top:70px}
+.sec{padding:clamp(80px,11vw,150px) 0}
+.sec--tight{padding-top:clamp(40px,6vw,80px)}
+.rev{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .9s var(--ease)}
+.rev.in{opacity:1;transform:none}
+html:not(.js) .rev{opacity:1;transform:none}
+html:not(.js) .tabs,html:not(.js) .tally,html:not(.js) .pl__step,html:not(.js) .pl__foot,html:not(.js) .pl__bar,html:not(.js) #mapBtn,html:not(.js) .rail-nav,html:not(.js) [data-copy]{display:none}
+html:not(.js) .cl__g p{margin:0;color:rgba(238,241,234,.85)}
+html:not(.js) .dock{transform:translate(-50%,0)}
+@media (min-width:761px){html:not(.js) .dock{transform:none}}
+
+/* intro / welcome */
+.intro{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(30px,6vw,90px);align-items:center}
+.intro__quote{font:400 clamp(26px,3.1vw,42px)/1.18 var(--serif);letter-spacing:-.02em;margin:22px 0 0;text-wrap:pretty}
+.intro__quote::before{content:"\201C";color:var(--ochre)}
+.intro__quote::after{content:"\201D";color:var(--ochre)}
+.intro__by{margin:18px 0 0;font:500 14px/1.4 var(--sans);color:var(--ink-60)}
+.intro__fig{position:relative;margin:0}
+.intro__fig{max-width:500px;justify-self:end;width:100%}
+.intro__fig img{width:100%;aspect-ratio:5/6;object-fit:cover;border-radius:220px 220px var(--r) var(--r)}
+.cap-photo{font:500 12px/1.3 var(--sans);color:var(--ink-60);margin-top:10px}
+.stamp{position:absolute;left:-26px;bottom:42px;width:148px;height:148px;border-radius:50%;background:var(--sand-2);display:grid;place-items:center;text-align:center;box-shadow:0 20px 40px -26px rgba(35,42,39,.6)}
+.stamp b{display:block;font:400 54px/.9 var(--serif);color:var(--gum)}
+.stamp span{display:block;font:600 10.5px/1.25 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-80);margin-top:6px}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-top:clamp(40px,6vw,70px)}
+.trio div{background:var(--paper);padding:24px 24px 26px}
+.trio b{font:400 30px/1 var(--serif);display:block;letter-spacing:-.02em}
+.trio span{display:block;color:var(--ink-60);margin-top:8px;font-size:15px}
+
+/* checklist */
+.inside{background:var(--gum);color:#EEF1EA;position:relative;overflow:hidden}
+.inside .eyebrow{color:var(--sand)}
+.inside .h2 em{color:var(--sand)}
+.inside .lede{color:rgba(238,241,234,.72)}
+.inside__top{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.inside .chip{background:rgba(255,255,255,.06);border-color:rgba(238,241,234,.22);color:#EEF1EA}
+.inside .chip:hover{border-color:var(--sand)}
+.inside .chip[aria-selected="true"]{background:var(--sand);border-color:var(--sand);color:var(--ink)}
+.cl{columns:3;column-gap:14px;margin-top:36px}
+.cl__g{break-inside:avoid;margin-bottom:14px;display:block;background:rgba(255,255,255,.05);border:1px solid rgba(238,241,234,.14);border-radius:var(--r);padding:20px 20px 14px;transition:opacity .3s}
+.cl__g[hidden]{display:none}
+.cl__g h3{font:400 24px/1.1 var(--serif);margin:0 0 12px;display:flex;align-items:center;gap:10px}
+.cl__g h3 svg{width:22px;height:22px;color:var(--sand)}
+.cl__g ul{list-style:none;margin:0;padding:0}
+.it{display:flex;align-items:center;gap:12px;width:100%;min-height:48px;border:0;border-top:1px solid rgba(238,241,234,.1);background:transparent;text-align:left;padding:8px 2px;color:#EEF1EA;font-size:15.5px;line-height:1.35}
+.it:first-child{border-top:0}
+.it .bx{width:24px;height:24px;border-radius:7px;border:1.5px solid rgba(238,241,234,.45);display:grid;place-items:center;flex:none;transition:background-color .2s,border-color .2s}
+.it .bx svg{width:14px;height:14px;opacity:0;transform:scale(.6);transition:opacity .2s,transform .25s var(--ease);color:var(--ink)}
+.it[aria-pressed="true"] .bx{background:var(--sand);border-color:var(--sand)}
+.it[aria-pressed="true"] .bx svg{opacity:1;transform:none}
+.it:hover .bx{border-color:var(--sand)}
+.it .tx{flex:1}
+.see{border:0;background:transparent;color:var(--sand);font:600 12.5px/1 var(--sans);padding:10px 4px;min-height:40px;text-decoration:underline;text-underline-offset:3px;flex:none}
+.cl__li{display:flex;align-items:center;gap:6px;border-top:1px solid rgba(238,241,234,.1)}
+.cl__li:first-child{border-top:0}
+.cl__li .it{border-top:0}
+.tally{display:flex;flex-wrap:wrap;align-items:center;gap:14px;justify-content:space-between;margin-top:22px;padding:16px 20px;border-radius:var(--r);background:rgba(0,0,0,.14)}
+.tally p{margin:0;font-size:15px;color:rgba(238,241,234,.8)}
+.tally b{color:#fff;font-weight:600}
+.tally .btn--line{background:transparent;color:#EEF1EA;border-color:rgba(238,241,234,.35)}
+.tally .btn--line:hover{border-color:#EEF1EA;background:rgba(255,255,255,.06)}
+.inside__note{font-size:13px;color:rgba(238,241,234,.6);margin:14px 0 0}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:1.25fr .9fr .9fr;grid-template-rows:260px 260px;gap:12px;margin-top:40px}
+.gal button{position:relative;padding:0;border:0;border-radius:var(--r-sm);overflow:hidden;background:var(--paper-2)}
+.gal button:first-child{grid-row:span 2}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease)}
+.gal button:hover img{transform:scale(1.04)}
+.gal figcaption{position:absolute;left:10px;bottom:10px;font:500 11.5px/1 var(--sans);background:rgba(251,249,244,.9);padding:6px 9px;border-radius:999px;color:var(--ink-80)}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(24,29,27,.94);display:none;align-items:center;justify-content:center;padding:60px 16px 90px}
+.lb.open{display:flex}
+.lb figure{margin:0;max-width:min(1100px,100%);max-height:100%;display:flex;flex-direction:column;align-items:center}
+.lb img{max-height:calc(100vh - 170px);max-height:calc(100svh - 170px);width:auto;border-radius:10px}
+.lb figcaption{color:#EDE6D6;font-size:14px;margin-top:12px;text-align:center}
+.lb__b{position:absolute;width:52px;height:52px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.06);color:#fff;display:grid;place-items:center}
+.lb__b:hover{background:rgba(255,255,255,.16)}
+.lb__b svg{width:20px;height:20px}
+.lb__x{top:14px;right:14px}.lb__p{left:14px;top:50%;margin-top:-26px}.lb__n{right:14px;top:50%;margin-top:-26px}
+.lb__c{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);color:rgba(237,230,214,.7);font:500 13px/1 var(--sans)}
+
+/* explore */
+.ex{background:var(--paper-2)}
+.ex__top{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end}
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(290px,1fr);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 20px;margin-top:34px;scrollbar-width:thin}
+.xc{scroll-snap-align:start;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;min-height:400px;transition:transform .35s var(--ease),box-shadow .35s}
+.xc:hover{transform:translateY(-4px);box-shadow:0 24px 40px -30px rgba(35,42,39,.5)}
+.xc[hidden]{display:none}
+.xc__m{height:170px;position:relative;background:var(--gum-mist);overflow:hidden}
+.xc__m img{width:100%;height:100%;object-fit:cover}
+.xc__m svg.art{width:100%;height:100%}
+.xc__m figcaption{position:absolute;right:8px;bottom:8px;font:500 11px/1 var(--sans);background:rgba(251,249,244,.9);padding:5px 8px;border-radius:999px;color:var(--ink-80)}
+.xc__b{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.xc__k{font:600 11.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ochre)}
+.xc h3{font:400 25px/1.1 var(--serif);margin:9px 0 8px;letter-spacing:-.015em}
+.xc p{margin:0;color:var(--ink-80);font-size:15px}
+.xc q{font-style:italic;color:var(--gum)}
+.xc ul{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.xc li{font:500 12.5px/1 var(--sans);padding:7px 9px;border-radius:999px;background:var(--gum-mist);color:var(--gum)}
+.ex__note{font-size:13.5px;color:var(--ink-60);margin:4px 0 0}
+.rail-nav{display:flex;gap:8px}
+.rail-nav button{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--card);display:grid;place-items:center}
+.rail-nav button:hover{border-color:var(--ink)}
+.rail-nav svg{width:18px;height:18px}
+
+/* planner */
+.plan{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(30px,5vw,70px);align-items:start}
+.pl{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:clamp(20px,3vw,32px);box-shadow:0 30px 60px -50px rgba(35,42,39,.6)}
+.pl__bar{display:flex;gap:6px;margin-bottom:22px}
+.pl__bar i{flex:1;height:4px;border-radius:4px;background:var(--line);transition:background-color .3s}
+.pl__bar i.on{background:var(--gum)}
+.pl__q{font:400 clamp(24px,2.4vw,30px)/1.1 var(--serif);margin:6px 0 16px;letter-spacing:-.015em}
+.pl__opts{display:flex;flex-wrap:wrap;gap:8px}
+.pl__opts.months{display:grid;grid-template-columns:repeat(6,1fr)}
+.pl__opts.months .chip{padding:0 6px}
+.pl__opts.months .chip.wide{grid-column:span 6}
+.pl__step[hidden]{display:none}
+.pl__foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:22px;flex-wrap:wrap}
+.link-btn{border:0;background:none;font:600 14px/1 var(--sans);color:var(--ink-60);text-decoration:underline;text-underline-offset:3px;padding:12px 2px;min-height:44px}
+.link-btn:hover{color:var(--ink)}
+.msg{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);padding:16px 18px;font:400 14.5px/1.55 var(--sans);white-space:pre-wrap;margin:0;max-height:300px;overflow:auto}
+.msg__to{font:500 13px/1.4 var(--sans);color:var(--ink-60);margin:0 0 10px}
+.msg__acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.privacy{font-size:13px;color:var(--ink-60);margin:12px 0 0;display:flex;gap:8px;align-items:flex-start}
+.privacy svg{width:16px;height:16px;flex:none;margin-top:2px;color:var(--gum-2)}
+.plan__side .callcard{margin-top:28px;background:var(--ink);color:#F5F1E8;border-radius:22px;padding:24px 26px}
+.callcard small{font:600 11.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--sand)}
+.callcard a.big{display:block;font:400 clamp(34px,4vw,46px)/1.05 var(--serif);text-decoration:none;margin:10px 0 4px;letter-spacing:-.01em}
+.callcard p{margin:0 0 16px;color:rgba(245,241,232,.7);font-size:15px}
+.callcard .row{display:flex;flex-wrap:wrap;gap:8px}
+.callcard .btn--line{background:transparent;color:#F5F1E8;border-color:rgba(245,241,232,.3)}
+.callcard .btn--line:hover{border-color:#F5F1E8;background:rgba(255,255,255,.06)}
+.copied{color:var(--gum)!important}
+
+/* faq */
+.faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,5vw,80px)}
+.qa{border-top:1px solid var(--line)}
+.qa details{border-bottom:1px solid var(--line)}
+.qa summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 2px;font:400 clamp(20px,1.9vw,24px)/1.25 var(--serif);min-height:44px}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary i{width:32px;height:32px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;flex:none;transition:transform .3s var(--ease),background-color .2s}
+.qa summary i svg{width:14px;height:14px}
+.qa details[open] summary i{transform:rotate(45deg);background:var(--gum-mist)}
+.qa summary:hover i{border-color:var(--ink)}
+.qa p{margin:0 0 22px;color:var(--ink-80);max-width:40rem}
+
+/* find */
+.find{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px);align-items:stretch}
+.addr{font:400 clamp(30px,3.6vw,48px)/1.08 var(--serif);letter-spacing:-.02em;margin:16px 0 0;font-style:normal}
+.find__list{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:0;border-top:1px solid var(--line)}
+.find__list li{display:grid;grid-template-columns:84px 1fr auto;align-items:center;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}
+.find__list li>a{min-width:0;overflow-wrap:anywhere}
+.find__list span{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-60)}
+.find__list a{font:500 17px/1.3 var(--sans);text-decoration:none}
+.find__list a:hover{color:var(--gum)}
+.mini{border:1px solid var(--line);background:var(--card);border-radius:999px;font:600 12.5px/1 var(--sans);padding:0 12px;min-height:36px}
+.mini:hover{border-color:var(--ink)}
+.also{margin:22px 0 0;font-size:15px;color:var(--ink-60)}
+.map{position:relative;border-radius:22px;overflow:hidden;min-height:420px;background:var(--gum-mist);border:1px solid var(--line)}
+.map__art{position:absolute;inset:0;width:100%;height:100%}
+.map__ui{position:absolute;inset:auto 18px 18px 18px;display:flex;flex-wrap:wrap;gap:8px;z-index:2}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map__lbl{position:absolute;left:18px;top:18px;font:500 12px/1 var(--sans);background:rgba(251,249,244,.92);padding:7px 10px;border-radius:999px;z-index:2;color:var(--ink-60)}
+
+/* footer + bar */
+.ft{background:var(--ink);color:rgba(245,241,232,.78);padding:64px 0 120px}
+.ft__top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px;align-items:flex-end;padding-bottom:30px;border-bottom:1px solid rgba(245,241,232,.14)}
+.ft__big{font:400 clamp(36px,5vw,64px)/1 var(--serif);color:#F5F1E8;letter-spacing:-.025em;margin:0}
+.ft__links{display:flex;flex-wrap:wrap;gap:8px}
+.ft__links a{color:#F5F1E8;text-decoration:none;border:1px solid rgba(245,241,232,.22);border-radius:999px;padding:12px 16px;font:500 14px/1 var(--sans)}
+.ft__links a:hover{background:rgba(255,255,255,.07)}
+.ft__fine{display:grid;gap:8px;margin-top:26px;font-size:13.5px}
+.ft__fine p{margin:0}
+.dock{position:fixed;z-index:70;left:50%;bottom:16px;transform:translate(-50%,140%);display:flex;gap:6px;padding:6px;border-radius:999px;background:rgba(35,42,39,.94);box-shadow:0 20px 40px -18px rgba(0,0,0,.55);transition:transform .5s var(--ease)}
+.dock.show{transform:translate(-50%,0)}
+.dock a,.dock button{display:flex;align-items:center;gap:8px;min-height:46px;padding:0 16px;border-radius:999px;border:0;background:transparent;color:#F5F1E8;text-decoration:none;font:600 14px/1 var(--sans)}
+.dock a:hover,.dock button:hover{background:rgba(255,255,255,.1)}
+.dock .pri{background:var(--ochre)}
+.dock .pri:hover{background:#9D5C19}
+.dock svg{width:18px;height:18px}
+
+/* ---------- responsive ---------- */
+@media (max-width:1060px){
+  .nav{display:none}
+  .menu-btn{display:inline-flex}
+  .cl{columns:2}
+}
+@media (max-width:760px){
+  .hdr__in{height:60px;gap:10px}
+  .hdr .btn--gum{display:none}
+  .brand__t b{font-size:17px}
+  .cut{height:285vh;height:285svh}
+  .cut__veil{background:linear-gradient(180deg,rgba(245,241,232,.96) 0%,rgba(245,241,232,.85) 34%,rgba(245,241,232,0) 56%)}
+  .cut__poster img{object-position:50% 100%}
+  .cut__copy{left:16px;right:16px;width:auto;top:22px}
+  .h1{font-size:clamp(42px,12.4vw,56px)}
+  .cut__sub{font-size:15.5px;margin-top:14px}
+  .cut__cta{margin-top:18px}
+  .cut__cta .btn{min-height:46px;padding:0 18px;font-size:14.5px}
+  .facts-row{display:none}
+  .unit-sw{top:auto;bottom:74px;right:16px;padding:4px 4px 4px 12px}
+  .unit-sw button{width:40px;height:40px}
+  .steps{left:16px;right:16px;bottom:18px;justify-content:space-between}
+  .steps button{flex:1;justify-content:center;padding:0 6px;font-size:12.5px}
+  .badge{left:16px;bottom:128px;font-size:11px;padding:6px 9px}
+  .scrollcue{display:none}
+  .cap{left:16px;right:16px;top:16px;width:auto;padding:16px 18px 18px}
+  .cap h3{font-size:24px;margin:8px 0 6px}
+  .cap p{font-size:14.5px}
+  .hcard{left:16px;right:16px;width:auto;top:auto;bottom:128px}
+  .hot span{display:none}
+  .intro,.plan,.faq,.find{grid-template-columns:1fr}
+  .intro__fig{max-width:420px}
+  .stamp{left:auto;right:-6px;bottom:30px;width:118px;height:118px}
+  .stamp b{font-size:42px}
+  .trio{grid-template-columns:1fr}
+  .inside__top,.ex__top{grid-template-columns:1fr}
+  .cl{columns:1}
+  .gal{grid-template-columns:1fr 1fr;grid-template-rows:200px 150px 150px}
+  .gal button:first-child{grid-row:auto;grid-column:span 2}
+  .rail{grid-auto-columns:82%}
+  .rail-nav{display:none}
+  .pl__opts.months{grid-template-columns:repeat(4,1fr)}
+  .pl__opts.months .chip.wide{grid-column:span 4}
+  .map{min-height:340px}
+  .find__list li{grid-template-columns:1fr auto;row-gap:4px}
+  .find__list li>span{grid-column:1/-1}
+  .find__list a{font-size:15.5px}
+  .intro__fig img{aspect-ratio:1/1}
+  .intro__fig{justify-self:start}
+  .ft{padding-bottom:130px}
+}
+@media (max-width:370px){
+  .brand__t span{display:none}
+  .h1{font-size:40px}
+  .steps button{font-size:11.5px}
+  .steps button b{display:none}
+}
+@media (min-width:761px){ .dock{left:auto;right:24px;transform:translateY(140%)} .dock.show{transform:none} }
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important}
+  .rev{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<div class="ribbon">Concept redesign by Jeig Torio · not the business's official website</div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="#top" aria-label="Mudgee Apartments on Horatio Street, back to top">
+      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#3E5A4B"/><path d="M13 39 32 23l19 16" fill="none" stroke="#F5F1E8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 46h26" stroke="#C9822F" stroke-width="4.5" stroke-linecap="round"/><circle cx="22" cy="39.5" r="1.6" fill="#F5F1E8"/><circle cx="32" cy="39.5" r="1.6" fill="#F5F1E8"/><circle cx="42" cy="39.5" r="1.6" fill="#F5F1E8"/></svg>
+      <span class="brand__t"><b>Mudgee Apartments</b><span>on Horatio Street</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#studio">The studios</a>
+      <a href="#inside">What's inside</a>
+      <a href="#explore">Explore Mudgee</a>
+      <a href="#plan">Enquire</a>
+      <a href="#find">Find us</a>
+    </nav>
+    <a class="btn btn--gum" href="tel:+61409304872"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>0409 304 872</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="sheet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button>
+  </div>
+</header>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="sheet__p">
+    <div class="sheet__top"><span class="eyebrow">Menu</span><button class="menu-btn" style="display:inline-flex" id="menuClose" aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+    <nav aria-label="Menu links">
+      <a href="#studio">The studios</a><a href="#inside">What's inside</a><a href="#explore">Explore Mudgee</a><a href="#plan">Enquire</a><a href="#find">Find us</a>
+    </nav>
+    <a class="btn btn--gum" style="width:100%" href="tel:+61409304872">Call 0409 304 872</a>
+  </div>
+</div>
+
+<main id="top">
+<!-- ============ 1 · CUTAWAY HERO ============ -->
+<section class="cut" id="cut" aria-label="Illustrated cutaway of a studio apartment">
+  <div class="cut__stick">
+    <picture class="cut__poster">
+      <source media="(max-width:760px)" srcset="assets/studio-poster-phone.webp">
+      <img src="assets/studio-poster.webp" alt="Illustration: three single-storey studio apartments with verandahs and covered parking, among gum trees and low hills, in daylight" width="1600" height="1000">
+    </picture>
+    <canvas class="cut__canvas" id="cutCanvas" aria-hidden="true"></canvas>
+    <div class="cut__veil" id="veil"></div>
+    <div class="hots" id="hots"></div>
+
+    <div class="cut__copy" id="heroCopy">
+      <p class="eyebrow"><i></i>27A Horatio Street · Mudgee NSW</p>
+      <h1 class="h1"><span>Come nest</span><span class="soft">in the hills.</span></h1>
+      <p class="cut__sub">Three ground-level studio apartments: open plan, modern, a queen bed, and room for two. Stylish, self-contained and in the heart of Mudgee.</p>
+      <div class="cut__cta">
+        <a class="btn btn--gum" href="#plan">Plan an enquiry</a>
+        <a class="btn btn--line" href="tel:+61409304872"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call 0409 304 872</a>
+      </div>
+      <ul class="facts-row" aria-label="At a glance">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 18h18M7 10V7h10v3"/></svg>Queen bed</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="16" cy="9" r="2.5"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5M14 15c3 0 6 1.5 6 4"/></svg>Max 2 guests</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 21h18M5 21V10l7-5 7 5v11"/></svg>Ground level</li>
+      </ul>
+    </div>
+
+    <div class="ui cap" id="cap1" aria-live="polite">
+      <p class="eyebrow">01 · Horatio Street</p>
+      <h3>Three studios, all on ground level</h3>
+      <p>A small complex of three self-contained studio apartments. Each one sleeps two.</p>
+      <p class="hint"><i></i>Pick a studio: 1, 2 or 3</p>
+    </div>
+    <div class="ui cap" id="cap2">
+      <p class="eyebrow">02 · Inside</p>
+      <h3>Open plan, modern studio</h3>
+      <p>Queen bed, living room, a fully equipped kitchen and a modern bathroom, all under one roof.</p>
+      <p class="hint"><i></i>Tap the dots to look around</p>
+    </div>
+    <div class="ui cap" id="cap3">
+      <p class="eyebrow">03 · Outside your door</p>
+      <h3>Your verandah, your car space</h3>
+      <p>A BBQ on the private verandah, and undercover parking at your apartment.</p>
+      <p class="hint"><i></i>Tap the dots for details</p>
+    </div>
+
+    <div class="ui unit-sw" id="unitSw">
+      <span class="unit-sw__l" id="unitLbl">Studio</span>
+      <div role="radiogroup" aria-labelledby="unitLbl">
+        <button role="radio" aria-checked="false" data-unit="0" tabindex="-1" aria-label="Studio 1">1</button>
+        <button role="radio" aria-checked="true" data-unit="1" aria-label="Studio 2">2</button>
+        <button role="radio" aria-checked="false" data-unit="2" tabindex="-1" aria-label="Studio 3">3</button>
+      </div>
+    </div>
+    <nav class="ui steps" id="steps" aria-label="Cutaway views">
+      <button data-go="0" aria-current="step"><b>1</b>Outside</button>
+      <button data-go="1"><b>2</b>Inside</button>
+      <button data-go="2"><b>3</b>Verandah</button>
+    </nav>
+    <p class="ui badge">Illustration · not the real floor plan</p>
+    <div class="ui scrollcue" id="cue" aria-hidden="true">Scroll to step inside<span></span></div>
+
+    <div class="hcard" id="hcard" role="dialog" aria-labelledby="hcTitle" aria-live="polite">
+      <button class="hcard__x" id="hcClose" aria-label="Close details"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <p class="eyebrow" id="hcKicker">In each studio</p>
+      <h4 id="hcTitle">Queen bed</h4>
+      <ul id="hcList"></ul>
+      <div class="hcard__nav"><button id="hcPrev">Previous</button><button id="hcNext">Next</button></div>
+    </div>
+  </div>
+  <ul class="cut__list" aria-label="What the cutaway shows">
+    <li><b>Three studios, all on ground level</b>A small complex of three self-contained studio apartments. Each one sleeps two.</li>
+    <li><b>Open plan, modern studio</b>Queen size bed, living room with a large flat screen smart TV, a fully equipped kitchen with a stovetop and pod coffee machine, a modern bathroom with a separate toilet, a washing machine and dryer.</li>
+    <li><b>Your verandah, your car space</b>A BBQ on the private verandah with an outdoor setting, and undercover parking for 1 car at your apartment.</li>
+  </ul>
+</section>
+
+<!-- ============ 2 · THE STUDIOS ============ -->
+<section class="sec" id="studio">
+  <div class="wrap">
+    <div class="intro">
+      <div class="rev">
+        <p class="eyebrow">The studios on Horatio Street</p>
+        <h2 class="h2">Built by a local builder <em>who loves to travel.</em></h2>
+        <blockquote class="intro__quote">I designed, built and landscaped the Apartments on Horatio St as if they were somewhere I would love to stay myself with all the extras and very private.</blockquote>
+        <p class="intro__by">From our About page · Mudgee Apartments is a local family business.</p>
+      </div>
+      <figure class="intro__fig rev">
+        <img src="assets/hills.webp" alt="Green rolling hills under a pale sky" width="960" height="960" loading="lazy">
+        <figcaption class="cap-photo">Concept photo.</figcaption>
+        <div class="stamp" aria-hidden="true"><div><b>3</b><span>studios<br>one level</span></div></div>
+      </figure>
+    </div>
+    <div class="trio rev">
+      <div><b>Open plan</b><span>"Open plan studio style with beautiful ultra modern furnishings."</span></div>
+      <div><b>Queen bed · max 2</b><span>Each apartment is on ground level and sleeps two.</span></div>
+      <div><b>Self-contained</b><span>Kitchen, laundry, verandah BBQ and your own covered car space.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3 · CHECKLIST ============ -->
+<section class="sec inside" id="inside">
+  <div class="wrap">
+    <div class="inside__top rev">
+      <div>
+        <p class="eyebrow">What's in the studio</p>
+        <h2 class="h2">Thoughtfully included, <em>item by item.</em></h2>
+        <p class="lede">"Everything a guest would require has been thoughtfully included." Tick what matters to you and we'll add it to your enquiry.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Filter the list">
+        <button class="chip" role="tab" aria-selected="true" data-f="all">All</button>
+        <button class="chip" role="tab" aria-selected="false" data-f="in">Inside</button>
+        <button class="chip" role="tab" aria-selected="false" data-f="out">Outside</button>
+      </div>
+    </div>
+    <div class="cl" id="cl"><noscript><div class="cl__g"><h3>Sleep</h3><p>Queen size bed · Extra bedding · Towels and linen provided</p></div><div class="cl__g"><h3>Cook</h3><p>Fully equipped kitchen with a stovetop · Pod coffee machine · Tea and coffee machine</p></div><div class="cl__g"><h3>Live</h3><p>Living room · Large flat screen smart TV · Free WiFi · Air conditioning · Ample storage facilities</p></div><div class="cl__g"><h3>Wash</h3><p>Modern bathroom · Separate toilet and bathroom · Washing machine · Dryer · Ironing board and iron</p></div><div class="cl__g"><h3>Outside</h3><p>BBQ on the private verandah · BBQ facilities and outdoor setting · Private BBQ &amp; entertaining area · Undercover parking for 1 car</p></div><div class="cl__g"><h3>Around the place</h3><p>Walking distance to Mudgee CBD · Free parking · Laundry facilities · Ground level, sleeps 2</p></div></noscript></div>
+    <div class="tally rev">
+      <p id="tallyTxt">Nothing ticked yet. Tap any item to add it to your enquiry.</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn--line" id="clClear" type="button">Clear ticks</button><a class="btn btn--ochre" href="#plan">Use in my enquiry</a></div>
+    </div>
+    <p class="inside__note">Each studio's inclusions as listed by Mudgee Apartments. Please check anything important when you enquire.</p>
+  </div>
+</section>
+
+<!-- ============ 4 · GALLERY ============ -->
+<section class="sec" id="gallery" aria-labelledby="galH">
+  <div class="wrap">
+    <div class="rev">
+      <p class="eyebrow">A look around</p>
+      <h2 class="h2" id="galH">Hills, vines and a <em>queen bed waiting.</em></h2>
+    </div>
+    <div class="gal rev" id="gal">
+      <button data-i="0" aria-label="Open picture 1 of 6"><figure style="margin:0;height:100%"><img src="assets/render-inside.webp" alt="Illustration: looking down into an open plan studio with the roof lifted" loading="lazy"><figcaption>Concept illustration.</figcaption></figure></button>
+      <button data-i="1" aria-label="Open picture 2 of 6"><figure style="margin:0;height:100%"><img src="assets/bed.webp" alt="A made bed with white linen and a patterned throw" loading="lazy"><figcaption>Concept photo.</figcaption></figure></button>
+      <button data-i="2" aria-label="Open picture 3 of 6"><figure style="margin:0;height:100%"><img src="assets/render-verandah.webp" alt="Illustration: a verandah with a BBQ and outdoor setting beside a covered car space" loading="lazy"><figcaption>Concept illustration.</figcaption></figure></button>
+      <button data-i="3" aria-label="Open picture 4 of 6"><figure style="margin:0;height:100%"><img src="assets/vines.webp" alt="Vineyard rows across rolling hills at sunset" loading="lazy"><figcaption>Concept photo.</figcaption></figure></button>
+      <button data-i="4" aria-label="Open picture 5 of 6"><figure style="margin:0;height:100%"><img src="assets/balloon.webp" alt="A hot air balloon being filled with warm air at dawn" loading="lazy"><figcaption>Concept photo.</figcaption></figure></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5 · EXPLORE ============ -->
+<section class="sec ex" id="explore">
+  <div class="wrap">
+    <div class="ex__top rev">
+      <div>
+        <p class="eyebrow">Explore Mudgee</p>
+        <h2 class="h2">Out and about <em>in Mudgee.</em></h2>
+        <p class="lede">A few of the things on our Explore Mudgee page. Please check times and bookings with each one before you go.</p>
+      </div>
+      <div class="rail-nav"><button id="railPrev" aria-label="Scroll left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button><button id="railNext" aria-label="Scroll right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>
+    </div>
+    <div class="tabs rev" role="tablist" aria-label="Filter places" style="margin-top:26px" id="exTabs">
+      <button class="chip" role="tab" aria-selected="true" data-x="all">Everything</button>
+      <button class="chip" role="tab" aria-selected="false" data-x="wine">Wine</button>
+      <button class="chip" role="tab" aria-selected="false" data-x="air">Up high</button>
+      <button class="chip" role="tab" aria-selected="false" data-x="walk">Out walking</button>
+      <button class="chip" role="tab" aria-selected="false" data-x="eat">Eat &amp; music</button>
+    </div>
+    <div class="rail" id="rail" tabindex="0" aria-label="Explore Mudgee cards">
+      <article class="xc" data-x="wine">
+        <figure class="xc__m" style="margin:0"><img src="assets/vines.webp" alt="Vineyard rows across hills" loading="lazy"><figcaption>Concept photo.</figcaption></figure>
+        <div class="xc__b"><p class="xc__k">Wineries &amp; cellar doors</p><h3>Over 50 vineyards and wineries</h3><p>Mudgee has <q>over 50 well known vineyards and wineries</q>, with cellar doors to visit. Among those we name:</p><ul><li>Di Lusso Estate</li><li>Pieter Van Gent</li><li>Robert Stein Wines</li></ul></div>
+      </article>
+      <article class="xc" data-x="air">
+        <figure class="xc__m" style="margin:0"><img src="assets/balloon.webp" alt="A hot air balloon being filled at dawn" loading="lazy"><figcaption>Concept photo.</figcaption></figure>
+        <div class="xc__b"><p class="xc__k">Ballooning</p><h3><q>Mudgee was made for ballooning!</q></h3><p>Sunrise balloon flights, finished with a champagne breakfast.</p></div>
+      </article>
+      <article class="xc" data-x="walk">
+        <figure class="xc__m" style="margin:0"><svg class="art" viewBox="0 0 320 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="170" fill="#D9C3A0"/><path d="M0 0h320v170H0z" fill="url(#rock)"/><defs><linearGradient id="rock" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9A97E"/><stop offset="1" stop-color="#9E7D57"/></linearGradient></defs><g stroke="#7B5E3E" stroke-width="2" opacity=".45" fill="none"><path d="M0 40c60-8 120 6 180-4s100 4 140 0"/><path d="M0 70c70-10 120 8 200-2s90 6 120 2"/><path d="M0 100c50-6 130 8 190 0s90 4 130-2"/></g><g fill="#E3EAE0" opacity=".9"><rect x="110" y="20" width="3" height="110" rx="1.5"/><rect x="150" y="34" width="2.5" height="100" rx="1.2"/><rect x="196" y="16" width="3" height="120" rx="1.5"/><rect x="232" y="40" width="2" height="90" rx="1"/></g><path d="M0 140c60-12 110 8 170-2s110 6 150-4v36H0z" fill="#5E7D6A"/><path d="M0 152c60-8 120 6 190-2s90 4 130 0v20H0z" fill="#3E5A4B"/></svg><figcaption>Concept illustration.</figcaption></figure>
+        <div class="xc__b"><p class="xc__k">A walk worth the drive</p><h3>The Drip</h3><p>The Great Dripping Wall on the Goulburn River near Ulan. <q>Don't forget your camera!</q></p></div>
+      </article>
+      <article class="xc" data-x="wine">
+        <figure class="xc__m" style="margin:0"><svg class="art" viewBox="0 0 320 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="170" fill="#E3EAE0"/><path d="M0 110c50-30 100-34 160-20s110 6 160-14v94H0z" fill="#C9D6C8"/><path d="M0 130c70-20 120-16 180-6s100 0 140-10v56H0z" fill="#5E7D6A"/><g stroke="#3E5A4B" stroke-width="2" opacity=".55"><path d="M10 160 60 128M40 166l60-36M76 168l60-38M114 168l58-36M150 168l56-34M188 168l52-32M224 168l48-30M260 168l46-28"/></g><path d="M40 94c40 0 60-4 100-4s70 6 120 2" fill="none" stroke="#B96F22" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/><circle cx="262" cy="92" r="7" fill="#B96F22"/><circle cx="262" cy="92" r="3" fill="#FBF9F4"/></svg><figcaption>Concept illustration.</figcaption></figure>
+        <div class="xc__b"><p class="xc__k">Let someone else drive</p><h3>Wine tours</h3><p>Tour companies listed on our Explore page:</p><ul><li>Country Escape Tours</li><li>Mudgee Explorer Tours</li><li>Mudgee VIP Wine Tours</li><li>Mudgee Trike and Convertibles</li><li>Tour Mudgee Now and Then</li></ul></div>
+      </article>
+      <article class="xc" data-x="eat">
+        <figure class="xc__m" style="margin:0"><svg class="art" viewBox="0 0 320 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="170" fill="#EADBC2"/><g fill="#3E5A4B"><rect x="30" y="60" width="80" height="80" rx="4"/><rect x="120" y="44" width="90" height="96" rx="4"/><rect x="220" y="70" width="70" height="70" rx="4"/></g><g fill="#F1DDC2"><rect x="42" y="74" width="18" height="22" rx="2"/><rect x="80" y="74" width="18" height="22" rx="2"/><rect x="134" y="60" width="18" height="24" rx="2"/><rect x="178" y="60" width="18" height="24" rx="2"/><rect x="234" y="84" width="16" height="20" rx="2"/><rect x="262" y="84" width="16" height="20" rx="2"/></g><path d="M0 140h320v30H0z" fill="#B9B8B0"/><g fill="#B96F22"><circle cx="70" cy="40" r="4"/><circle cx="165" cy="26" r="4"/><circle cx="255" cy="52" r="4"/></g><path d="M58 40h24M153 26h24M243 52h24" stroke="#B96F22" stroke-width="1.5" stroke-dasharray="2 4"/></svg><figcaption>Concept illustration.</figcaption></figure>
+        <div class="xc__b"><p class="xc__k">Places to eat</p><h3>In town</h3><p>A few of the places on our list:</p><ul><li>Roth's Wine Bar</li><li>Lawson Park Hotel</li><li>Alby and Esthers Cafe</li></ul></div>
+      </article>
+      <article class="xc" data-x="eat">
+        <figure class="xc__m" style="margin:0"><svg class="art" viewBox="0 0 320 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="320" height="170" fill="#232A27"/><g stroke="#D9C3A0" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M30 100c20-30 40 30 60 0s40 30 60 0 40 30 60 0 40 30 60 0 30 20 40 0"/><path d="M30 120c20-20 40 20 60 0s40 20 60 0 40 20 60 0 40 20 60 0 30 14 40 0" opacity=".45"/></g><g fill="#B96F22"><circle cx="90" cy="60" r="6"/><rect x="95" y="34" width="2.5" height="27"/><circle cx="210" cy="50" r="6"/><rect x="215" y="24" width="2.5" height="27"/></g></svg><figcaption>Concept illustration.</figcaption></figure>
+        <div class="xc__b"><p class="xc__k">Live music</p><h3>Free live music, some nights</h3><p>Several restaurants have free live music on certain nights and afternoons. Ask us what's on during your stay, and book early.</p></div>
+      </article>
+    </div>
+    <p class="ex__note">Sample picks, as listed on an earlier version of our Explore Mudgee page. To be confirmed before launch.</p>
+  </div>
+</section>
+
+<!-- ============ 6 · ENQUIRY PLANNER ============ -->
+<section class="sec" id="plan">
+  <div class="wrap plan">
+    <div class="plan__side rev">
+      <p class="eyebrow">Plan your stay</p>
+      <h2 class="h2">Three taps, <em>one email.</em></h2>
+      <p class="lede">Book direct with us by phone or email. Pick your nights, guests and time of year, and we'll write the enquiry for you to send.</p>
+      <div class="callcard">
+        <small>Rather talk?</small>
+        <a class="big" href="tel:+61409304872">0409 304 872</a>
+        <p>Call us for a booking enquiry.</p>
+        <div class="row">
+          <a class="btn btn--ochre" href="tel:+61409304872"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call now</a>
+          <button class="btn btn--line" type="button" data-copy="0409 304 872">Copy number</button>
+        </div>
+      </div>
+    </div>
+    <div class="pl rev" id="pl">
+      <div class="pl__bar" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+      <noscript><p>Email us at <a href="mailto:stay@mudgeeapartments.com.au">stay@mudgeeapartments.com.au</a> or call <a href="tel:+61409304872">0409 304 872</a>.</p></noscript>
+      <div class="pl__step" data-s="0">
+        <p class="eyebrow">Step 1 of 3</p>
+        <p class="pl__q" id="q0">How many nights?</p>
+        <div class="pl__opts" role="radiogroup" aria-labelledby="q0" data-k="nights">
+          <button class="chip" role="radio" aria-checked="false" data-v="1 night">1</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="2 nights">2</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="3 nights">3</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="4 nights">4</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="5 nights">5</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="6 nights">6</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="a week or more">A week or more</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="not sure yet">Not sure yet</button>
+        </div>
+      </div>
+      <div class="pl__step" data-s="1" hidden>
+        <p class="eyebrow">Step 2 of 3</p>
+        <p class="pl__q" id="q1">One guest or two?</p>
+        <div class="pl__opts" role="radiogroup" aria-labelledby="q1" data-k="guests">
+          <button class="chip" role="radio" aria-checked="false" data-v="1 guest">Just me</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="2 guests">Two of us</button>
+        </div>
+        <p class="privacy" style="margin-top:14px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>Each studio has a queen bed and takes a maximum of 2 guests.</p>
+      </div>
+      <div class="pl__step" data-s="2" hidden>
+        <p class="eyebrow">Step 3 of 3</p>
+        <p class="pl__q" id="q2">What time of year?</p>
+        <div class="pl__opts months" role="radiogroup" aria-labelledby="q2" data-k="when">
+          <button class="chip" role="radio" aria-checked="false" data-v="January">Jan</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="February">Feb</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="March">Mar</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="April">Apr</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="May">May</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="June">Jun</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="July">Jul</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="August">Aug</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="September">Sep</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="October">Oct</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="November">Nov</button>
+          <button class="chip" role="radio" aria-checked="false" data-v="December">Dec</button>
+          <button class="chip wide" role="radio" aria-checked="false" data-v="flexible">We're flexible</button>
+        </div>
+      </div>
+      <div class="pl__step" data-s="3" hidden>
+        <p class="eyebrow">Your enquiry</p>
+        <p class="pl__q">Ready to send</p>
+        <p class="msg__to">To: stay@mudgeeapartments.com.au<br>Subject: <span id="msgSubj"></span></p>
+        <pre class="msg" id="msg" tabindex="0"></pre>
+        <div class="msg__acts">
+          <a class="btn btn--gum" id="mailGo" href="mailto:stay@mudgeeapartments.com.au"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>Open in my email app</a>
+          <button class="btn btn--line" type="button" id="msgCopy">Copy message</button>
+        </div>
+        <p class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>This opens your own email app. Nothing is sent or stored by this page.</p>
+      </div>
+      <div class="pl__foot">
+        <button class="link-btn" id="plBack" type="button" hidden>Back</button>
+        <span id="plPick" style="font-size:13.5px;color:var(--ink-60)"></span>
+        <button class="link-btn" id="plReset" type="button" hidden>Start over</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7 · FAQ ============ -->
+<section class="sec sec--tight" id="faq">
+  <div class="wrap faq">
+    <div class="rev">
+      <p class="eyebrow">Good to know</p>
+      <h2 class="h2">Questions, <em>answered plainly.</em></h2>
+      <p class="lede">Anything else? Call 0409 304 872 or email stay@mudgeeapartments.com.au.</p>
+    </div>
+    <div class="qa rev">
+      <details><summary>How many guests can stay?<i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></i></summary><p>Each studio has a queen bed and takes a maximum of 2 guests.</p></details>
+      <details><summary>Are there stairs?<i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></i></summary><p>Each apartment is on ground level.</p></details>
+      <details><summary>Where do I park?<i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></i></summary><p>There's undercover parking for 1 car at your apartment.</p></details>
+      <details><summary>Can I cook and do washing?<i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></i></summary><p>Yes. Each studio has a fully equipped kitchen with a stovetop, a BBQ on the private verandah, and a washing machine and dryer for guests' use.</p></details>
+      <details><summary>Can I walk into town?<i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></i></summary><p>The apartments are within walking distance of the Mudgee CBD.</p></details>
+      <details><summary>How do I book?<i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></i></summary><p>Book direct with us: call 0409 304 872 or email stay@mudgeeapartments.com.au. The enquiry helper above writes the email for you.</p></details>
+      <details><summary>Pets, rates or anything else?<i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></i></summary><p>Ask us: call or email and we'll let you know.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8 · FIND US ============ -->
+<section class="sec sec--tight" id="find">
+  <div class="wrap find">
+    <div class="rev">
+      <p class="eyebrow">Find us</p>
+      <address class="addr">27A Horatio Street,<br>Mudgee NSW 2850</address>
+      <ul class="find__list">
+        <li><span>Phone</span><a href="tel:+61409304872">0409 304 872</a><button class="mini" type="button" data-copy="0409 304 872">Copy</button></li>
+        <li><span>Email</span><a href="mailto:stay@mudgeeapartments.com.au">stay@mudgeeapartments.com.au</a><button class="mini" type="button" data-copy="stay@mudgeeapartments.com.au">Copy</button></li>
+        <li><span>Town</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Mudgee+Apartments+on+Horatio+Street+Mudgee+NSW" target="_blank" rel="noopener">Walking distance to Mudgee CBD</a></li>
+      </ul>
+      <p class="also">Ask us about our other apartments in Mudgee, too.</p>
+    </div>
+    <div class="map rev" id="map">
+      <svg class="map__art" viewBox="0 0 600 440" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="600" height="440" fill="#E3EAE0"/><g fill="#D2DDCF"><path d="M0 330c90-40 170-30 260-6s190 10 340-40v156H0z"/><path d="M0 80c110 30 190 10 300-20S500 40 600 70V0H0z"/></g><g stroke="#FBF9F4" stroke-width="14" fill="none" stroke-linecap="round"><path d="M-10 200h620"/><path d="M200-10v460"/><path d="M420-10v460"/><path d="M-10 330c120-10 300-20 620-10"/></g><g stroke="#FBF9F4" stroke-width="6" fill="none"><path d="M-10 110h620M310-10v460M80-10v460M520-10v460"/></g><g fill="#3E5A4B"><circle cx="310" cy="206" r="16"/></g><circle cx="310" cy="206" r="6" fill="#F5F1E8"/><circle cx="310" cy="206" r="30" fill="none" stroke="#B96F22" stroke-width="2" stroke-dasharray="3 6"/></svg>
+      <span class="map__lbl">Sketch, not to scale</span>
+      <div class="map__ui">
+        <button class="btn btn--gum" type="button" id="mapBtn">Show map</button>
+        <a class="btn btn--line" href="https://www.google.com/maps/search/?api=1&amp;query=Mudgee+Apartments+on+Horatio+Street+Mudgee+NSW" target="_blank" rel="noopener">Get directions</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft__top">
+      <p class="ft__big">Mudgee Apartments<br><span style="color:var(--sand)">on Horatio Street</span></p>
+      <div class="ft__links"><a href="tel:+61409304872">0409 304 872</a><a href="mailto:stay@mudgeeapartments.com.au">stay@mudgeeapartments.com.au</a><a href="#plan">Plan an enquiry</a></div>
+    </div>
+    <div class="ft__fine">
+      <p>27A Horatio Street, Mudgee NSW 2850 · Self-contained studio apartments · Mudgee Apartments is a local family business.</p>
+      <p>Concept redesign by Jeig Torio · not the business's official website</p>
+      <p>Photos are stock concept placeholders (Pexels), not pictures of the apartments. The 3D studio, the renders and the drawings are illustrations, not the real floor plan.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="dock" id="dock" aria-label="Quick contact">
+  <a href="tel:+61409304872"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call</a>
+  <a href="mailto:stay@mudgeeapartments.com.au"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>Email</a>
+  <a class="pri" href="#plan">Enquire</a>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Picture viewer">
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb__b lb__x" id="lbX" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <button class="lb__b lb__p" id="lbP" aria-label="Previous picture"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+  <button class="lb__b lb__n" id="lbN" aria-label="Next picture"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+  <p class="lb__c" id="lbC"></p>
+</div>
+
+<script>
+/* ---------- shared page behaviour (no libraries) ---------- */
+(function(){
+  const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // progress + dock
+  const bar=$('#progress'), dock=$('#dock'), cut=$('#cut');
+  function onScroll(){
+    const h=document.documentElement.scrollHeight-innerHeight;
+    bar.style.transform='scaleX('+(h>0?scrollY/h:0)+')';
+    const past=cut.getBoundingClientRect().bottom<innerHeight*0.6;
+    const r=cut.getBoundingClientRect();dock.classList.toggle('show',innerWidth<=760?(r.bottom<innerHeight*0.9):past);
+  }
+  addEventListener('scroll',onScroll,{passive:true}); addEventListener('resize',onScroll); onScroll();
+  // reveal
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
+  $$('.rev').forEach(el=>io.observe(el));
+  // menu
+  const sheet=$('#sheet'),mb=$('#menuBtn');
+  const closeMenu=()=>{sheet.classList.remove('open');mb.setAttribute('aria-expanded','false')};
+  mb.addEventListener('click',()=>{sheet.classList.add('open');mb.setAttribute('aria-expanded','true');$('#menuClose').focus()});
+  $('#menuClose').addEventListener('click',()=>{closeMenu();mb.focus()});
+  sheet.addEventListener('click',e=>{if(e.target===sheet||e.target.closest('a'))closeMenu()});
+  addEventListener('keydown',e=>{if(e.key==='Escape'&&sheet.classList.contains('open')){closeMenu();mb.focus()}});
+  addEventListener('resize',()=>{if(innerWidth>1060)closeMenu()});
+  // copy buttons
+  async function copy(t){try{await navigator.clipboard.writeText(t);return true}catch(e){const a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}a.remove();return ok}}
+  window.__copy=copy;
+  document.addEventListener('click',async e=>{const b=e.target.closest('[data-copy]');if(!b)return;const old=b.textContent;await copy(b.dataset.copy);b.textContent='Copied';b.classList.add('copied');setTimeout(()=>{b.textContent=old;b.classList.remove('copied')},1600)});
+
+  /* ---------- checklist ---------- */
+  const groups=[
+    {k:'in',t:'Sleep',ic:'<path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 18h18M7 10V7h10v3"/>',items:[['Queen size bed','bed'],['Extra bedding'],['Towels and linen provided']]},
+    {k:'in',t:'Cook',ic:'<path d="M4 11h16v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM8 11V7M12 11V5M16 11V7"/>',items:[['Fully equipped kitchen with a stovetop','kitchen'],['Pod coffee machine','kitchen'],['Tea and coffee machine']]},
+    {k:'in',t:'Live',ic:'<rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8"/>',items:[['Living room','living'],['Large flat screen smart TV','living'],['Free WiFi','living'],['Air conditioning','air'],['Ample storage facilities']]},
+    {k:'in',t:'Wash',ic:'<path d="M4 12h16v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM6 12V6a2 2 0 0 1 4 0"/>',items:[['Modern bathroom','bath'],['Separate toilet and bathroom','bath'],['Washing machine','laundry'],['Dryer','laundry'],['Ironing board and iron']]},
+    {k:'out',t:'Outside',ic:'<path d="M5 20l3-9h8l3 9M8 11V8a4 4 0 0 1 8 0v3M12 4V2"/>',items:[['BBQ on the private verandah','bbq'],['BBQ facilities and outdoor setting','bbq'],['Private BBQ & entertaining area','bbq'],['Undercover parking for 1 car','park']]},
+    {k:'out',t:'Around the place',ic:'<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',items:[['Walking distance to Mudgee CBD'],['Free parking'],['Laundry facilities'],['Ground level, sleeps 2','door']]}
+  ];
+  const cl=$('#cl'); const picked=new Set();
+  const tick='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>';
+  cl.innerHTML=groups.map(g=>`<div class="cl__g rev" data-k="${g.k}"><h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">${g.ic}</svg>${g.t}</h3><ul>${g.items.map(([n,h])=>`<li class="cl__li"><button type="button" class="it" aria-pressed="false" data-n="${n}"><span class="bx">${tick}</span><span class="tx">${n}</span></button>${h?`<button type="button" class="see" data-hot="${h}" aria-label="See ${n} in the 3D studio">See it</button>`:''}</li>`).join('')}</ul></div>`).join('');
+  $$('.cl__g').forEach(el=>io.observe(el));
+  const tally=$('#tallyTxt');
+  function upd(){const n=picked.size;tally.innerHTML=n?`<b>${n} ticked:</b> ${[...picked].join(' · ')}. These go into your enquiry.`:'Nothing ticked yet. Tap any item to add it to your enquiry.';window.__picked=[...picked];document.dispatchEvent(new CustomEvent('picks'))}
+  cl.addEventListener('click',e=>{const b=e.target.closest('.it');if(b){const on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',on);on?picked.add(b.dataset.n):picked.delete(b.dataset.n);upd();return}
+    const s=e.target.closest('.see');if(s){document.dispatchEvent(new CustomEvent('showhot',{detail:s.dataset.hot}))}});
+  $('#clClear').addEventListener('click',()=>{picked.clear();$$('.it',cl).forEach(b=>b.setAttribute('aria-pressed','false'));upd()});
+  const tabs=$$('#inside [role=tab]');
+  tabs.forEach(t=>t.addEventListener('click',()=>{tabs.forEach(x=>x.setAttribute('aria-selected',x===t));const f=t.dataset.f;$$('.cl__g',cl).forEach(g=>g.hidden=!(f==='all'||g.dataset.k===f))}));
+
+  /* ---------- explore filter + rail ---------- */
+  const xt=$$('#exTabs [role=tab]'), rail=$('#rail');
+  xt.forEach(t=>t.addEventListener('click',()=>{xt.forEach(x=>x.setAttribute('aria-selected',x===t));const f=t.dataset.x;$$('.xc',rail).forEach(c=>c.hidden=!(f==='all'||c.dataset.x===f));rail.scrollTo({left:0,behavior:reduce?'auto':'smooth'})}));
+  const step=()=>($('.xc:not([hidden])',rail)?.offsetWidth||300)+14;
+  $('#railPrev').addEventListener('click',()=>rail.scrollBy({left:-step(),behavior:reduce?'auto':'smooth'}));
+  $('#railNext').addEventListener('click',()=>rail.scrollBy({left:step(),behavior:reduce?'auto':'smooth'}));
+  rail.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){rail.scrollBy({left:step()});e.preventDefault()}if(e.key==='ArrowLeft'){rail.scrollBy({left:-step()});e.preventDefault()}});
+
+  /* ---------- planner ---------- */
+  const EMAIL='stay@mudgeeapartments.com.au';
+  const st={nights:null,guests:null,when:null}; let cur=0;
+  const steps=$$('.pl__step'), segs=$$('.pl__bar i'), back=$('#plBack'), reset=$('#plReset'), pick=$('#plPick');
+  function show(i){cur=i;steps.forEach(s=>s.hidden=+s.dataset.s!==i);segs.forEach((s,k)=>s.classList.toggle('on',k<=i));back.hidden=i===0;reset.hidden=i===0;
+    pick.textContent=[st.nights,st.guests,st.when].filter(Boolean).join(' · ');
+    if(i===3)compose()}
+  function compose(){
+    const when=st.when==='flexible'?'flexible':'around '+st.when;
+    const subj=`Studio enquiry: ${st.nights}, ${st.guests}, ${st.when==='flexible'?'dates flexible':st.when}`;
+    let body=`Hello,\n\nI'd like to ask about staying in one of your studio apartments at 27A Horatio Street, Mudgee.\n\nNights: ${st.nights}\nGuests: ${st.guests}\nTime of year: ${when}\n`;
+    const p=window.__picked||[];
+    if(p.length)body+=`\nThings that matter to us: ${p.join(', ')}.\n`;
+    body+=`\nCould you let me know which dates are free and the rate?\n\nThank you,\n`;
+    $('#msgSubj').textContent=subj; $('#msg').textContent=body;
+    $('#mailGo').href=`mailto:${EMAIL}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
+  }
+  document.addEventListener('picks',()=>{if(cur===3)compose()});
+  $$('.pl__opts').forEach(g=>{
+    const bs=$$('[role=radio]',g);
+    bs.forEach((b,i)=>{b.tabIndex=i===0?0:-1;
+      b.addEventListener('click',()=>{bs.forEach(x=>x.setAttribute('aria-checked',x===b));st[g.dataset.k]=b.dataset.v;const s=+g.closest('.pl__step').dataset.s;setTimeout(()=>{show(s+1);const nx=$('.pl__step:not([hidden]) [role=radio],.pl__step:not([hidden]) #mailGo');nx&&nx.focus({preventScroll:true})},reduce?0:220)});
+      b.addEventListener('keydown',e=>{const d={ArrowRight:1,ArrowDown:1,ArrowLeft:-1,ArrowUp:-1}[e.key];if(!d)return;e.preventDefault();const n=bs[(i+d+bs.length)%bs.length];bs.forEach(x=>x.tabIndex=-1);n.tabIndex=0;n.focus()});
+    })});
+  back.addEventListener('click',()=>show(Math.max(0,cur-1)));
+  reset.addEventListener('click',()=>{st.nights=st.guests=st.when=null;$$('.pl__opts [role=radio]').forEach(b=>b.setAttribute('aria-checked','false'));show(0)});
+  $('#msgCopy').addEventListener('click',async e=>{const b=e.currentTarget;await copy(`To: ${EMAIL}\nSubject: ${$('#msgSubj').textContent}\n\n${$('#msg').textContent}`);b.textContent='Copied';b.classList.add('copied');setTimeout(()=>{b.textContent='Copy message';b.classList.remove('copied')},1600)});
+
+  /* ---------- gallery lightbox ---------- */
+  const gb=$$('#gal button'), lb=$('#lb'), li=$('#lbImg'), lc=$('#lbCap'), lcount=$('#lbC'); let gi=0, lastF=null;
+  const items=gb.map(b=>({src:$('img',b).getAttribute('src'),alt:$('img',b).alt,cap:$('figcaption',b).textContent}));
+  gb.forEach(b=>b.setAttribute('aria-label',`Open picture ${+b.dataset.i+1} of ${items.length}`));
+  function lbShow(i){gi=(i+items.length)%items.length;li.src=items[gi].src;li.alt=items[gi].alt;lc.textContent=items[gi].alt+'. '+items[gi].cap;lcount.textContent=(gi+1)+' / '+items.length}
+  function lbOpen(i){lastF=document.activeElement;lbShow(i);lb.classList.add('open');document.body.style.overflow='hidden';$('#lbX').focus()}
+  function lbClose(){lb.classList.remove('open');document.body.style.overflow='';lastF&&lastF.focus()}
+  gb.forEach(b=>b.addEventListener('click',()=>lbOpen(+b.dataset.i)));
+  $('#lbX').addEventListener('click',lbClose);$('#lbP').addEventListener('click',()=>lbShow(gi-1));$('#lbN').addEventListener('click',()=>lbShow(gi+1));
+  lb.addEventListener('click',e=>{if(e.target===lb)lbClose()});
+  addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')lbClose();if(e.key==='ArrowRight')lbShow(gi+1);if(e.key==='ArrowLeft')lbShow(gi-1);
+    if(e.key==='Tab'){const f=[$('#lbX'),$('#lbP'),$('#lbN')];const k=f.indexOf(document.activeElement);e.preventDefault();f[(k+(e.shiftKey?-1:1)+3)%3].focus()}});
+  let tx=null;lb.addEventListener('touchstart',e=>{tx=e.touches[0].clientX},{passive:true});
+  lb.addEventListener('touchend',e=>{if(tx===null)return;const dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>40)lbShow(gi+(dx<0?1:-1));tx=null});
+
+  /* ---------- map ---------- */
+  $('#mapBtn').addEventListener('click',e=>{const m=$('#map');if($('iframe',m))return;const f=document.createElement('iframe');f.title='Map: Mudgee Apartments on Horatio Street, Mudgee NSW';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';f.src='https://www.google.com/maps?q=Mudgee+Apartments+on+Horatio+Street+Mudgee+NSW&output=embed';m.appendChild(f);e.currentTarget.textContent='Map loaded';e.currentTarget.disabled=true;$('.map__lbl',m).textContent='Google Maps'});
+})();
+</script>
+
+<script type="module">
+/* ---------- the studio cutaway (three.js, built from primitives) ---------- */
+const root=document.getElementById('cut'), stick=root.querySelector('.cut__stick'), canvas=document.getElementById('cutCanvas');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const clamp=(v,a,b)=>Math.min(b,Math.max(a,v)), lerp=(a,b,t)=>a+(b-a)*t;
+const ss=(a,b,x)=>{const t=clamp((x-a)/(b-a),0,1);return t*t*(3-2*t)};
+const KEYS=[0.04,0.52,0.96];            // scroll progress for Outside / Inside / Verandah
+let P=0, unit=1;                          // progress 0..1, selected studio
+const api={ready:false,p:()=>P,unit:()=>unit,hots:()=>0,open:()=>openId,step:()=>stepIdx};
+window.__cut=api;
+let openId=null, stepIdx=0;
+
+/* static mode for reduced motion: no pinned scroll, the step buttons switch views */
+if(reduce) root.classList.add('is-static');
+function progress(){
+  if(reduce) return;
+  const r=root.getBoundingClientRect(), span=r.height-stick.offsetHeight;
+  P=span>0?clamp(-r.top/span,0,1):0;
+}
+function goStep(i){
+  if(reduce){ targetP=KEYS[i]; return; }
+  const r=root.getBoundingClientRect(), span=r.height-stick.offsetHeight, top=scrollY+r.top;
+  scrollTo({top:top+span*KEYS[i]+1,behavior:'smooth'});
+}
+let targetP=0.04;
+$$('#steps button').forEach(b=>b.addEventListener('click',()=>goStep(+b.dataset.go)));
+
+/* unit switch (radio group) */
+const ub=$$('#unitSw [role=radio]');
+function setUnit(i,focus){unit=i;ub.forEach((b,k)=>{b.setAttribute('aria-checked',k===i);b.tabIndex=k===i?0:-1});if(focus)ub[i].focus();tags.forEach((t,k)=>t.setAttribute('aria-pressed',k===i))}
+ub.forEach((b,i)=>{b.addEventListener('click',()=>setUnit(i));b.addEventListener('keydown',e=>{const d={ArrowRight:1,ArrowDown:1,ArrowLeft:-1,ArrowUp:-1}[e.key];if(d){e.preventDefault();setUnit((i+d+3)%3,true)}})});
+
+/* hotspot data: only what the business lists */
+const HOT=[
+ {id:'door',st:0,p:[0.65,1.15,4.05],t:'Ground level, sleeps two',k:'Each apartment',l:['Each apartment is on ground level','Sleeps 2 persons: queen bed, max 2 guests','One of three studios on Horatio Street']},
+ {id:'bed',st:1,p:[-1.5,0.95,-2.7],t:'Queen size bed',k:'Sleep',l:['Queen size bed','Towels and linen provided','Extra bedding']},
+ {id:'air',st:1,p:[-1.5,2.3,-3.8],t:'Air conditioning',k:'Comfort',l:['Air conditioning','Ample storage facilities']},
+ {id:'living',st:1,p:[-2.85,1.35,1.3],t:'Living room',k:'Live',l:['Living room','Large flat screen smart TV','Free WiFi']},
+ {id:'kitchen',st:1,p:[2.7,1.15,1.4],t:'Fully equipped kitchen',k:'Cook',l:['Fully equipped kitchen with a stovetop','Pod coffee machine','Tea and coffee machine']},
+ {id:'bath',st:1,p:[1.55,1.0,-3.3],t:'Modern bathroom',k:'Wash',l:['Modern bathroom','Separate toilet and bathroom']},
+ {id:'laundry',st:1,p:[1.3,1.5,-1.75],t:'Washer and dryer',k:'Laundry',l:['A washing machine and dryer for guests’ use','Ironing board and iron']},
+ {id:'bbq',st:2,p:[-2.45,1.25,5.5],t:'Verandah BBQ',k:'Outside',l:['A BBQ on the private verandah','BBQ facilities and outdoor setting','Private BBQ & entertaining area']},
+ {id:'park',st:2,p:[1.75,1.9,7.2],t:'Undercover parking',k:'Parking',l:['Undercover parking at your apartment','Room for 1 car']}
+];
+const hotsEl=$('#hots'), hcard=$('#hcard');
+const hotBtns=HOT.map(h=>{const b=document.createElement('button');b.className='hot off';b.type='button';b.dataset.id=h.id;b.setAttribute('aria-label',h.t+': show details');b.setAttribute('aria-expanded','false');b.innerHTML=`<i></i><span>${h.t}</span>`;b.addEventListener('click',()=>openHot(h.id));hotsEl.appendChild(b);return b});
+const tags=[0,1,2].map(i=>{const b=document.createElement('button');b.className='tag off';b.type='button';b.setAttribute('aria-pressed',i===unit);b.setAttribute('aria-label','Select studio '+(i+1));b.innerHTML=`<small>Studio</small>${i+1}`;b.addEventListener('click',()=>setUnit(i));hotsEl.appendChild(b);return b});
+api.hots=()=>hotBtns.filter(b=>b.classList.contains('on')).length;
+function openHot(id){
+  const h=HOT.find(x=>x.id===id); if(!h) return; openId=id;
+  $('#hcKicker').textContent=h.k+' · in each studio'; $('#hcTitle').textContent=h.t;
+  $('#hcList').innerHTML=h.l.map(x=>`<li>${x}</li>`).join('');
+  hotBtns.forEach(b=>b.setAttribute('aria-expanded',b.dataset.id===id));
+  hcard.classList.add('open');
+}
+function closeHot(){openId=null;hcard.classList.remove('open');hotBtns.forEach(b=>b.setAttribute('aria-expanded','false'))}
+$('#hcClose').addEventListener('click',closeHot);
+addEventListener('keydown',e=>{if(e.key==='Escape'&&openId)closeHot()});
+function cycle(d){const list=HOT.filter(h=>h.st===HOT.find(x=>x.id===openId)?.st);const i=list.findIndex(h=>h.id===openId);openHot(list[(i+d+list.length)%list.length].id)}
+$('#hcPrev').addEventListener('click',()=>cycle(-1)); $('#hcNext').addEventListener('click',()=>cycle(1));
+/* "See it" from the checklist */
+document.addEventListener('showhot',e=>{const h=HOT.find(x=>x.id===e.detail);if(!h)return;goStep(h.st);const wait=reduce?50:900;setTimeout(()=>openHot(h.id),wait)});
+
+/* captions + step state (works even if WebGL fails) */
+const caps=[$('#cap1'),$('#cap2'),$('#cap3')], copy=$('#heroCopy'), cue=$('#cue'), veil=$('#veil'), stepB=$$('#steps button');
+function ui(p){
+  const s=p<0.3?0:p<0.76?1:2;
+  const heroOn=p<0.12;
+  copy.style.opacity=heroOn?1:0; copy.style.transform=heroOn?'none':'translateY(-14px)'; copy.style.pointerEvents=heroOn?'auto':'none';
+  veil.style.opacity=heroOn?1:0.0; cue.style.opacity=p<0.03?1:0;
+  caps.forEach((c,i)=>c.classList.toggle('on',!heroOn&&i===s));
+  if(s!==stepIdx){stepIdx=s;if(openId&&HOT.find(h=>h.id===openId).st!==s)closeHot()}
+  stepB.forEach((b,i)=>i===s?b.setAttribute('aria-current','step'):b.removeAttribute('aria-current'));
+}
+veil.style.transition='opacity .5s';
+
+/* ---------- 3D ---------- */
+let THREE;
+try{ THREE=await import('three'); }catch(e){ fail(); }
+function fail(){ root.classList.add('is-fallback'); hotBtns.forEach(b=>b.remove()); tags.forEach(b=>b.remove()); startUiOnly(); }
+function startUiOnly(){ const f=()=>{progress(); if(reduce) P=targetP; ui(P); requestAnimationFrame(f)}; f(); }
+if(THREE) build();
+
+function build(){
+let renderer;
+try{ renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true,powerPreference:'high-performance',preserveDrawingBuffer:false}); }catch(e){ fail(); return; }
+const mobile=matchMedia('(max-width:760px)').matches;
+renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));
+renderer.setClearColor(0x000000,0);
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping; renderer.toneMappingExposure=1.05;
+renderer.shadowMap.enabled=true; renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();fail()});
+
+const scene=new THREE.Scene();
+scene.fog=new THREE.Fog(0xE9ECE2,38,95);
+const camera=new THREE.PerspectiveCamera(36,1,0.1,300);
+scene.add(new THREE.HemisphereLight(0xEEF3F2,0xB59C74,1.35));
+const sun=new THREE.DirectionalLight(0xFFF0DA,2.6);
+sun.position.set(-14,22,16); sun.castShadow=true;
+sun.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);
+Object.assign(sun.shadow.camera,{left:-18,right:18,top:18,bottom:-18,near:1,far:70});
+sun.shadow.bias=-0.0006; sun.shadow.normalBias=0.03;
+scene.add(sun);
+
+const M=(c,o={})=>new THREE.MeshStandardMaterial({color:c,roughness:o.r??0.85,metalness:o.m??0,flatShading:o.f??false,transparent:!!o.t,opacity:o.t??1});
+const mat={
+  wall:M(0xF1ECE1), sand:M(0xD8C29E), floor:M(0xCFB28A,{r:.7}), deck:M(0xB98F62), pav:M(0xDCCDB0),
+  roof:M(0x7E837E,{r:.6,m:.2}), awn:M(0xC4C1B7,{r:.7,m:.1}), fascia:M(0x5F635E), white:M(0xF7F5F0), linen:M(0xFBFAF6), sage:M(0x8EA58F),
+  gum:M(0x5E7D6A), gumDk:M(0x3E5A4B), ink:M(0x2A2F2D,{r:.4}), timber:M(0xA77B52), timberLt:M(0xC9A57B),
+  steel:M(0xB8BCBA,{r:.35,m:.6}), glass:M(0xBFD6DA,{r:.1,t:.35}), lawn:M(0xA9B486,{f:true}), lawn2:M(0x97A577,{f:true}),
+  concrete:M(0xCFCBC2), ochre:M(0xB96F22), bark:M(0xD9D4C8,{f:true}), barkDk:M(0x9C968A,{f:true}),
+  leaf:M(0x7F9A80,{f:true}), leaf2:M(0x6A876F,{f:true}), hill:M(0xB7C3A5,{f:true}), hill2:M(0xA4B393,{f:true}), car:M(0x6E7570,{r:.35,m:.3}), tyre:M(0x2A2A2A)
+};
+const box=(w,h,d,m,x,y,z,p=scene,sh=true)=>{const o=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),m);o.position.set(x,y,z);o.castShadow=sh;o.receiveShadow=true;p.add(o);return o};
+const cyl=(rt,rb,h,m,x,y,z,p=scene,seg=10)=>{const o=new THREE.Mesh(new THREE.CylinderGeometry(rt,rb,h,seg),m);o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;p.add(o);return o};
+
+/* ground + hills */
+const ground=new THREE.Mesh(new THREE.CircleGeometry(80,48),mat.lawn); ground.rotation.x=-Math.PI/2; ground.receiveShadow=true; scene.add(ground);
+const rnd=(s=>()=>(s=(s*16807)%2147483647)/2147483647)(7);
+for(let i=0;i<14;i++){const a=i/14*Math.PI*2+rnd()*.3, r=46+rnd()*14, h=new THREE.Mesh(new THREE.IcosahedronGeometry(10+rnd()*10,1),i%2?mat.hill:mat.hill2);h.scale.set(1.6,0.42+rnd()*.25,1.2);h.position.set(Math.cos(a)*r,-2,Math.sin(a)*r-6);scene.add(h)}
+box(26,0.06,3.6,mat.concrete,0,0.03,11.6,scene,false); // shared driveway
+for(let i=0;i<40;i++){const x=(rnd()-.5)*60,z=(rnd()-.5)*50; if(Math.abs(x)<12&&z>-7&&z<14)continue; const t=new THREE.Mesh(new THREE.IcosahedronGeometry(0.5+rnd()*.5,0),mat.lawn2);t.position.set(x,0.1,z);t.scale.y=.45;scene.add(t)}
+
+/* gum tree */
+function gumTree(x,z,s=1){
+  const g=new THREE.Group(); g.position.set(x,0,z); g.scale.setScalar(s); scene.add(g);
+  const tr=cyl(0.14,0.26,4.2,mat.bark,0,2.1,0,g,7); tr.rotation.z=0.05;
+  const b1=cyl(0.07,0.12,2.2,mat.bark,0.55,4.4,0,g,6); b1.rotation.z=-0.55;
+  const b2=cyl(0.06,0.11,2.0,mat.barkDk,-0.5,4.5,0.2,g,6); b2.rotation.z=0.6;
+  [[0.9,5.6,0,1.3],[-0.9,5.5,0.3,1.1],[0,6.2,-0.2,1.2],[0.2,5.2,0.8,0.9],[-0.3,5.4,-0.8,0.9]].forEach(([a,b,c,r],i)=>{const m=new THREE.Mesh(new THREE.IcosahedronGeometry(r,0),i%2?mat.leaf:mat.leaf2);m.position.set(a,b,c);m.scale.y=.7;m.castShadow=true;g.add(m)});
+  return g;
+}
+[[-13.5,-6,1.15],[13.8,-4.5,1.05],[-14.5,3.5,.9],[17.5,4,1.2],[4,-10.5,1.1],[-5,-11,.95],[22,-12,1.3],[-22,-9,1.25],[-19,14,1],[24,15,1.1]].forEach(a=>gumTree(...a));
+/* shrubs along the front */
+for(let i=0;i<9;i++){const s=new THREE.Mesh(new THREE.IcosahedronGeometry(0.45,0),i%2?mat.leaf:mat.sage);s.position.set(-9.6+i*2.4+(i%3)*.2,0.3,9.85);s.scale.y=.7;s.castShadow=true;scene.add(s)}
+
+/* one studio (unit space: x -3.1..3.1, z -4..4 interior, verandah/carport in front) */
+const W=6.2, D=8, H=2.7, T=0.16, GAP=0.5, STEP=W+GAP;
+const units=[];
+function studio(ix){
+  const g=new THREE.Group(); g.position.x=(ix-1)*STEP; scene.add(g);
+  const u={g,cutWalls:[],roof:null,lift:0};
+  box(W+0.2,0.16,D+0.2,mat.sand,0,0.08,0,g); // slab
+  box(W-0.1,0.02,D-0.1,mat.floor,0,0.17,0,g,false);
+  const wallH=(o)=>{u.cutWalls.push(o);return o};
+  // back wall (stays full height), side walls + front wall are cut
+  box(W,H,T,mat.wall,0,H/2+0.16,-D/2,g);
+  const mkCut=(w,h,d,m,x,y,z)=>{const o=box(w,h,d,m,x,y,z,g);o.userData.h=h;o.userData.y=y;return wallH(o)};
+  mkCut(T,H,D,mat.wall,-W/2,H/2+0.16,0); mkCut(T,H,D,mat.sand,W/2,H/2+0.16,0);
+  // front wall with window (-2.5..-0.6) and glass door (0.2..1.1)
+  const fz=D/2;
+  mkCut(0.6,H,T,mat.sand,-2.8,H/2+0.16,fz); mkCut(0.8,H,T,mat.sand,-0.2,H/2+0.16,fz); mkCut(2.0,H,T,mat.sand,2.1,H/2+0.16,fz);
+  mkCut(1.9,0.9,T,mat.sand,-1.55,0.61,fz); mkCut(1.9,0.5,T,mat.sand,-1.55,2.61,fz); mkCut(0.9,0.45,T,mat.sand,0.65,2.63,fz);
+  box(1.9,1.3,0.04,mat.glass,-1.55,1.71,fz,g,false); box(0.9,2.2,0.04,mat.glass,0.65,1.26,fz,g,false);
+  // bathroom partitions (cut too)
+  mkCut(T,H,2.8,mat.wall,0.9,H/2+0.16,-2.6);
+  mkCut(1.0,H,T,mat.wall,1.4,H/2+0.16,-1.2); mkCut(0.5,H,T,mat.wall,2.85,H/2+0.16,-1.2);
+  mkCut(T,H,1.4,mat.wall,2.2,H/2+0.16,-3.3); mkCut(0.3,H,T,mat.wall,2.35,H/2+0.16,-2.6);
+  // roof: skillion slab + fascia
+  const roof=new THREE.Group(); g.add(roof); roof.position.y=H+0.16;
+  const slab=box(W+0.5,0.18,D+0.6,mat.roof,0,0.22,-0.1,roof); slab.rotation.x=0.05;
+  box(W+0.55,0.32,0.08,mat.fascia,0,0.2,D/2+0.2,roof);
+  u.roof=roof; u.roofMats=[];
+  /* interior */
+  // bed
+  box(1.6,0.32,2.05,mat.timber,-1.5,0.36,-2.9,g); box(1.56,0.22,1.95,mat.linen,-1.5,0.6,-2.85,g);
+  box(1.6,0.06,0.9,mat.sage,-1.5,0.73,-2.2,g); box(1.7,0.95,0.12,mat.timberLt,-1.5,0.62,-3.92,g);
+  box(0.6,0.14,0.36,mat.white,-1.88,0.78,-3.6,g); box(0.6,0.14,0.36,mat.white,-1.12,0.78,-3.6,g);
+  box(0.45,0.5,0.4,mat.timberLt,-2.65,0.42,-3.65,g); box(0.45,0.5,0.4,mat.timberLt,-0.35,0.42,-3.65,g);
+  cyl(0.1,0.13,0.28,mat.ochre,-2.65,0.82,-3.65,g,8);
+  box(0.95,0.3,0.24,mat.white,-1.5,2.3,-3.8,g); // aircon
+  // rug + living
+  box(2.2,0.02,1.8,mat.pav,-1.2,0.19,1.3,g,false);
+  const sofa=new THREE.Group(); sofa.position.set(-0.3,0,1.3); g.add(sofa);
+  box(0.85,0.42,2.0,mat.gum,0,0.4,0,sofa); box(0.22,0.5,2.0,mat.gum,0.32,0.75,0,sofa); box(0.85,0.25,0.2,mat.gumDk,0,0.62,0.95,sofa); box(0.85,0.25,0.2,mat.gumDk,0,0.62,-0.95,sofa);
+  box(0.6,0.35,0.9,mat.timber,-1.35,0.35,1.3,g);
+  box(0.06,0.75,1.3,mat.ink,-3.0,1.35,1.3,g); box(0.4,0.4,1.6,mat.timberLt,-2.8,0.38,1.3,g);
+  // kitchen along right wall
+  box(0.62,0.88,2.9,mat.white,2.75,0.6,1.5,g); box(0.66,0.05,2.94,mat.timber,2.75,1.07,1.5,g);
+  box(0.5,0.02,0.55,mat.ink,2.75,1.1,1.1,g); // stovetop
+  box(0.62,1.9,0.66,mat.steel,2.75,1.11,-0.3,g); // fridge
+  box(0.2,0.3,0.26,mat.ink,2.8,1.24,2.6,g); // pod coffee machine
+  box(0.62,0.6,2.9,mat.white,2.75,2.2,1.5,g);   // overhead cupboards
+  // bathroom
+  box(0.6,0.85,0.45,mat.white,2.8,0.6,-2.0,g); // vanity
+  box(1.2,0.04,1.0,mat.white,1.5,0.2,-3.45,g,false); box(0.04,2.0,1.0,mat.glass,2.1,1.16,-3.45,g,false); box(1.2,2.0,0.04,mat.glass,1.5,1.16,-2.95,g,false);
+  cyl(0.18,0.2,0.4,mat.white,2.65,0.36,-3.5,g,10); box(0.4,0.4,0.18,mat.white,2.65,0.66,-3.85,g);
+  // washer + dryer stacked
+  box(0.6,0.85,0.6,mat.white,1.3,0.6,-1.75,g); box(0.6,0.85,0.6,mat.white,1.3,1.46,-1.75,g);
+  const door1=cyl(0.2,0.2,0.04,mat.glass,1.3,0.6,-1.44,g,16); door1.rotation.x=Math.PI/2; const door2=cyl(0.2,0.2,0.04,mat.steel,1.3,1.46,-1.44,g,16); door2.rotation.x=Math.PI/2;
+  /* verandah + carport */
+  box(3.4,0.12,2.6,mat.deck,-1.45,0.06,5.3,g);
+  box(0.05,1.8,2.4,mat.timber,-3.1,1.0,5.3,g); for(let i=0;i<8;i++) box(0.06,1.8,0.12,mat.timberLt,-3.05,1.0,4.25+i*0.3,g);
+  box(0.9,0.85,0.55,mat.steel,-2.45,0.55,5.5,g); box(0.95,0.06,0.6,mat.ink,-2.45,1.0,5.5,g); // BBQ
+  cyl(0.45,0.45,0.05,mat.timber,-1.0,0.8,5.4,g,14); cyl(0.05,0.05,0.75,mat.ink,-1.0,0.4,5.4,g,6);
+  box(0.45,0.45,0.45,mat.gumDk,-0.4,0.35,5.6,g); box(0.45,0.45,0.45,mat.gumDk,-1.6,0.35,5.2,g);
+  box(2.8,0.06,5.4,mat.concrete,1.75,0.04,6.7,g,false);
+  // awning over verandah + carport
+  box(W+0.4,0.1,5.6,mat.awn,0,2.62,6.8,g).castShadow=true;
+  [[-3.0,6.4],[0.25,9.4],[3.0,9.4],[0.25,4.3],[-3.0,9.4]].forEach(([x,z],i)=>{if(i===4)return;box(0.12,2.5,0.12,mat.fascia,x,1.3,z,g)});
+  box(W+0.4,0.22,0.06,mat.fascia,0,2.55,9.6,g);
+  // car
+  const car=new THREE.Group(); car.position.set(1.75,0,7.3); g.add(car);
+  box(1.75,0.55,4.1,mat.car,0,0.58,0,car); box(1.5,0.46,2.1,M(0xA9BCC0,{r:.15,m:.3}),0,1.08,-0.25,car);
+  box(1.52,0.06,2.0,mat.car,0,1.33,-0.25,car); box(1.6,0.08,0.6,mat.fascia,0,0.9,1.75,car);
+  [[-0.85,1.3],[0.85,1.3],[-0.85,-1.3],[0.85,-1.3]].forEach(([x,z])=>{const w=cyl(0.33,0.33,0.24,mat.tyre,x,0.33,z,car,12);w.rotation.z=Math.PI/2});
+  // path to door
+  for(let i=0;i<3;i++) box(0.8,0.04,0.55,mat.pav,0.65,0.03,9.9+i*0.75,g,false);
+  units.push(u);
+}
+[0,1,2].forEach(studio);
+
+/* camera path (relative to the selected studio) */
+const PATH=[ // [p, camPos, target]
+  [0.00,[15,15.5,30],[0,0.2,2.5]],
+  [0.22,[12,14,24],[0,0.4,1.2]],
+  [0.46,[4.2,10.4,8.4],[0,0.2,-0.6]],
+  [0.62,[-2.6,9.6,6.6],[0.2,0.3,-0.8]],
+  [0.78,[-1.6,4.6,15.2],[0.2,1.0,4.6]],
+  [1.00,[5.4,2.4,15.4],[-0.4,1.0,5.6]]
+];
+const curve=new THREE.CatmullRomCurve3(PATH.map(k=>new THREE.Vector3(...k[1])),false,'centripetal');
+const tcurve=new THREE.CatmullRomCurve3(PATH.map(k=>new THREE.Vector3(...k[2])),false,'centripetal');
+function pathT(p){for(let i=0;i<PATH.length-1;i++){const a=PATH[i][0],b=PATH[i+1][0];if(p<=b){const t=(p-a)/(b-a);return (i+ (t*t*(3-2*t)))/(PATH.length-1)}}return 1}
+
+/* sizing */
+let Wd=1,Hd=1,portrait=false;
+function size(){
+  Wd=stick.clientWidth;Hd=stick.clientHeight;portrait=Wd/Hd<0.9;
+  renderer.setPixelRatio(Math.min(devicePixelRatio||1,2)); renderer.setSize(Wd,Hd,false);
+  camera.aspect=Wd/Hd; camera.fov=portrait?52:36; camera.updateProjectionMatrix();
+}
+new ResizeObserver(size).observe(stick); size();
+
+/* visibility: pause off-screen / hidden tab */
+let visible=true;
+new IntersectionObserver(es=>{visible=es[0].isIntersecting;if(visible)wake()},{rootMargin:'100px'}).observe(stick);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)wake()});
+
+let ux=(unit-1)*STEP, raf=0, last=performance.now(), sp=P, t0=performance.now();
+const v=new THREE.Vector3(), cpos=new THREE.Vector3(), ctgt=new THREE.Vector3();
+function wake(){if(!raf)raf=requestAnimationFrame(tick)}
+function tick(now){
+  raf=0; if(!visible||document.hidden) return;
+  const dt=Math.min(0.05,(now-last)/1000); last=now;
+  progress(); if(reduce) P=targetP;
+  sp=reduce?P:lerp(sp,P,1-Math.exp(-dt*7));
+  ui(P);
+  const tx=(unit-1)*STEP; ux=reduce?tx:lerp(ux,tx,1-Math.exp(-dt*4));
+  // cutaway amount: roof off while inside, back on for the verandah
+  const cutA=ss(0.12,0.36,sp)*(1-ss(0.8,0.94,sp));
+  units.forEach((u,i)=>{
+    const w=clamp(1-Math.abs((i-1)*STEP-ux)/STEP,0,1);
+    const a=cutA*w; u.lift=a;
+    u.roof.position.y=H+0.16+a*5.5; u.roof.rotation.z=a*0.12; u.roof.position.x=a*0.6;
+    u.roof.visible=a<0.97;
+    u.cutWalls.forEach(o=>{const k=1-a*0.72; o.scale.y=k; o.position.y=(o.userData.y-o.userData.h/2)+o.userData.h*k/2});
+  });
+  // camera
+  const pt=pathT(sp);
+  curve.getPoint(pt,cpos); tcurve.getPoint(pt,ctgt);
+  const centre=1-ss(0.08,0.3,sp);           // overview centres on the whole block
+  const ox=lerp(ux,0,centre);
+  let zoom=portrait?lerp(1.32,1.06,ss(0.25,0.45,sp)):lerp(1.1,1,ss(0.22,0.45,sp));
+  cpos.multiplyScalar(zoom);
+  if(!reduce){const tt=(now-t0)/1000;cpos.x+=Math.sin(tt*0.25)*0.35;cpos.y+=Math.sin(tt*0.31)*0.15}
+  camera.position.set(cpos.x+ox,cpos.y,cpos.z); camera.lookAt(ctgt.x+ox,ctgt.y,ctgt.z);
+  // portrait: push the scene down below the hero copy at the start
+  const off=portrait?Hd*0.17*(1-ss(0.06,0.2,sp)):0;
+  const offX=portrait?0:Wd*0.15*(1-ss(0.26,0.42,sp));
+  camera.setViewOffset(Wd,Hd,-offX,-off,Wd,Hd);
+  renderer.render(scene,camera);
+  // hotspots
+  const s=sp<0.3?0:sp<0.76?1:2, heroOn=P<0.12;
+  HOT.forEach((h,i)=>{
+    const b=hotBtns[i]; v.set(h.p[0]+ux,h.p[1],h.p[2]);
+    const show=!heroOn&&h.st===s&&(h.st!==1||cutA>0.6);
+    v.project(camera);
+    const inView=v.z<1&&Math.abs(v.x)<1.05&&Math.abs(v.y)<1.05;
+    b.style.transform=`translate(${(v.x*.5+.5)*Wd}px,${(-v.y*.5+.5)*Hd}px)`;
+    b.classList.toggle('on',show&&inView); b.classList.toggle('off',!(show&&inView));
+  });
+  tags.forEach((t,i)=>{
+    v.set((i-1)*STEP,H+1.2,0.5); v.project(camera);
+    const show=sp<0.3&&!heroOn;
+    t.style.transform=`translate(${(v.x*.5+.5)*Wd}px,${(-v.y*.5+.5)*Hd}px) translate(-50%,-100%)`;
+    t.classList.toggle('on',show); t.classList.toggle('off',!show);
+  });
+  wake();
+}
+addEventListener('scroll',wake,{passive:true});
+renderer.compile(scene,camera);
+progress(); sp=reduce?targetP:P; ui(P);
+requestAnimationFrame(t=>{tick(t);root.classList.add('is-ready');api.ready=true});
+api.render=(p,u)=>{ if(u!=null){unit=u;ux=(u-1)*STEP;setUnit(u)} if(p!=null){P=p;sp=p;targetP=p} };
+}
+</script>
+</body>
+</html>
